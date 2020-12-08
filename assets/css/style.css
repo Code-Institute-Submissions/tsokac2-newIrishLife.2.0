@@ -1,11 +1,9 @@
 @charset "UTF-8";
 /*--- COLOR VARIABLES ---*/
 /*--- FONT FAMILY VARIABLES ---*/
-/*--- BREAKING POINTS ---*/
 * {
   margin: 0;
   padding: 0; }
-
 html {
   font-size: 62.5%; }
   @media (min-width: 768px) {
