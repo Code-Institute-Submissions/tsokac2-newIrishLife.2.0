@@ -10,7 +10,6 @@ html {
   @media (min-width: 576px) {
     html {
       font-size: 50%; } }
-
 body {
   background-image: linear-gradient(to bottom, white, #acf4f2);
   background-repeat: no-repeat;
