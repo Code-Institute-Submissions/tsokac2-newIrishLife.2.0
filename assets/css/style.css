@@ -1,8 +1,8 @@
 @charset "UTF-8";
-/*--- COLOR VARIABLES ---*/
 * {
   margin: 0;
   padding: 0; }
+
 html {
   font-size: 62.5%; }
   @media (min-width: 768px) {
@@ -49,13 +49,16 @@ body {
   opacity: 0;
   transition-duration: .6s;
   transition-property: opacity; }
+
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-left,
 .carousel-fade .carousel-item-prev.carousel-item-right {
   opacity: 1; }
+
 .carousel-fade .active.carousel-item-left,
 .carousel-fade .active.carousel-item-right {
   opacity: 0; }
+
 .carousel-fade .carousel-item-next,
 .carousel-fade .carousel-item-prev,
 .carousel-fade .carousel-item.active,
@@ -589,7 +592,7 @@ body {
       z-index: 2000;
       background-image: linear-gradient(to bottom, white, #acf4f2); }
     .section-life .cards-wrap .wrap {
-      padding: .5rem .5rem 0 .5rem;
+      padding: 1.5rem .5rem;
       justify-self: center;
       border: 1px solid rgba(5, 65, 68, 0.2);
       border-top: 2px solid #054144; }
@@ -970,7 +973,8 @@ body {
       width: 95%;
       margin-left: 1rem;
       padding: .5rem 0;
-      font-size: 1.2rem; }
+      font-size: 1.2rem;
+      outline: none; }
       @media (min-width: 768px) {
         .right .search-wrap input {
           font-size: 1.5rem; } }
