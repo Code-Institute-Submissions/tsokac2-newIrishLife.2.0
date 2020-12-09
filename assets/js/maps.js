@@ -1,4 +1,3 @@
-/* initMap email function*/ 
 function initMap() {
         const map = new google.maps.Map(document.getElementById("map"), {
             zoom : 11,
@@ -11,21 +10,21 @@ function initMap() {
   google.maps.event.addDomListener(window, "resize", function() {
     var center = map.getCenter();
     google.maps.event.trigger(map, "resize");
-    map.setCenter(center); 
+    map.setCenter(center);
   });
 
         let busMarkerIcon = {
-            url:"assets/img/bus_marker.png",
+            url:"assets/images/bus_marker.png",
             scaledSize: new google.maps.Size(50, 50)
         }
 
         let dartMarkerIcon = {
-            url:"assets/img/dart_marker.png",
+            url:"assets/images/dart_marker.png",
             scaledSize: new google.maps.Size(50, 50)
         }
 
         let luasMarkerIcon = {
-            url:"assets/img/luas_marker.png",
+            url:"assets/images/luas_marker.png",
             scaledSize: new google.maps.Size(50, 50)
         }
 
