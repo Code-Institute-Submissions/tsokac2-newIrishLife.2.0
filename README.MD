@@ -5,7 +5,7 @@ Finding work, a place to stay where to buy good cheap food in Ireland can be dif
 advice, and planning this task can be made a lot easier.
 This website is a great starting point.
 
-![Website Main Mockup](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframe/main.png)
+![Website Main Mockup](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/wireframes/main.png)
 
 ## UX
 
@@ -162,13 +162,13 @@ When the website is successfully uploaded to GitHub and the website URL is gener
 
 
 Development and testing overview in order as follow:
-* xxs max - MAX width 240px     - element padding - element margins - centre alignment - fluent font size
-* xxs   - MIN width 240px       - element padding - element margins - centre alignment - fluent font size
-* xs    - MIN width - 360px     - element padding - element margins - centre alignment - fluent font size
-* sm    - MIN width - 576px     - element padding - element margins - centre alignment - fluent font size
-* md    - MIN width - 768px     - element padding - element margins - centre alignment - fluent font size
-* lg    - MIN width - 992px     - element padding - element margins - centre alignment - fluent font size
-* xl    - MIN width - 1200px    - element padding - element margins - centre alignment - fluent font size
+* xxs max - MAX width - 240px     - element padding - element margins - centre alignment - fluent font size
+* xxs     - MIN width - 240px     - element padding - element margins - centre alignment - fluent font size
+* xs      - MIN width - 360px     - element padding - element margins - centre alignment - fluent font size
+* sm      - MIN width - 576px     - element padding - element margins - centre alignment - fluent font size
+* md      - MIN width - 768px     - element padding - element margins - centre alignment - fluent font size
+* lg      - MIN width - 992px     - element padding - element margins - centre alignment - fluent font size
+* xl      - MIN width - 1200px    - element padding - element margins - centre alignment - fluent font size
 
 ### TESTING TOOLS
 
@@ -270,7 +270,7 @@ The security of your Google Cloud Platform account(s) is important to us.
 
 ## DEPLOYMENT
 
-Project link -  [newIrishLife](https://tsokac2.github.io/newIrishLife/)
+Project link -  [newIrishLife](https://tsokac2.github.io/newIrishLife.2.0/)
 
 **GIT CMD**  -  https://git-scm.com/
 
@@ -284,6 +284,6 @@ STEPS:
 * Intro pitch - *"The Hobbit: An Unexpected Journey"* - Wiki - https://en.wikipedia.org/wiki/The_Hobbit_(film_series)
 * Website images source - [UNSPLASH](https://unsplash.com/s/photos/smartphone
 * Website images source - [PIXABAY](https://pixabay.com/photos)
-* Boostrap coursl fade efect - [Source](https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/)
+* Bootstrap carousel fade effect - [Source](https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/)
 * Resizing Google Maps markers  - [Source](https://stackoverflow.com/questions/15096461/resize-google-maps-marker-icon-image)
 * Home page icons - [Flaticon](https://www.flaticon.com/)
