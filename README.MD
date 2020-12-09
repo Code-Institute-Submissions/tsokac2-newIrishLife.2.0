@@ -1,16 +1,16 @@
 <h1 align="center">New Irish Life</h1>
 
 Web-based travel guide for providing correct information on how easily start living and working in Ireland.
-Finding work, a place to stay where to buy good cheap food in Ireland can be difficult but with the correct preparation, 
+Finding work, a place to stay where to buy good cheap food in Ireland can be difficult but with the correct preparation,
 advice, and planning this task can be made a lot easier.
 This website is a great starting point.
 
-![Website Main Mockup](https://github.com/tsokac2/newIrishLife/blob/master/assets/wireframe/main.png) 
+![Website Main Mockup](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframe/main.png)
 
 ## UX
 
 **Story:**
-* Four years ago, one Croatian landed in Dublin, Ireland. 
+* Four years ago, one Croatian landed in Dublin, Ireland.
 On the web, there was a lot of info about life in Ireland, but not essentials information in one place.
 Well, not anymore. *
 
@@ -22,55 +22,55 @@ Well, not anymore. *
 * Definition by HOME section - inform the user of page usage and purpose.
 * Definition by TRIP section - pitch users on quick links for travel options, regarding trip planning, prices, destinations road travel in Ireland, and major possibilities.
 * Definition by WORK section - user advice of most popular web "job-hunt" services in Ireland as well as education offers.
-* Definition by LIFE section - give and introduction of general "life" information in Ireland regarding accommodation, mobile networks, and grocery shopping. 
+* Definition by LIFE section - give and introduction of general "life" information in Ireland regarding accommodation, mobile networks, and grocery shopping.
 
 #### Design process
-* #1 Draft all mani section of the web-page - HOME, TRIP, WORK, LIFE.
+* #1 Draft all main section of the web-page - HOME, TRIP, WORK, LIFE.
 * #2 Brief list all pop-ups/pages - SING IN and LOG IN sub-elements.
-* #3 List all colors pallets - usage - background color, font color, border.
+* #3 List all colours pallets - usage - background colour, font colour, border.
 * #4 List all font styles for best UX.
 * #5 Draft web-page layout using Adobe Photoshop for the main layout and Adobe Illustrator for layout components such us Logo, borders, navigation elements.
 * #6 List possible Fowtawesome Icon for best UX in picture experiences.
-* #7 List Semantic markup to structure HTML code.
-* #8 List CSS folder structure for SASS Preprocessor configuration.
+* #7 List Semantic Mark-up to structure HTML code.
+* #8 List CSS folder structure for SASS Pre-processor configuration.
 * #9 Plan and implement Google Maps API for orientation purposes.
 * #10 Plan and implement Emailjs API service for user forms.
 
 ### Wireframes
 
-General Design idea and Elements order - [View](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_03.png)
+General Design idea and Elements order - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_03.png)
 
-Responsive Layout Planning - [View](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_04.png)
+Responsive Layout Planning - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_04.png)
 
-Main Layout for Larger and Small screens - [View](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_02.png)
+Main Layout for Larger and Small screens - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_02.png)
 
-Google Maps API Implementation - **Trip.html** - [View](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_01.png)
+Google Maps API Implementation - **Trip.html** - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_01.png)
 
 
 #### Main Layout
 * MENU - Right navigation -- Logo -- Right menu option - Search bar - Sing in  - Log in
 * MAIN SECTION AREA - Main section content following website features - HOME - TRIP - WORK - LIFE
-* FOOTER -  Footer Menu links - Newsletter Subtraction - Social Media links - Copyrights 
+* FOOTER -  Footer Menu links - Newsletter Subtraction - Social Media links - Copyrights
 
 ## FEATURES
 
 #### HOME
-Simple introduction of web page purpose and what value it is bringing to an end-user. 
-Formated in three main sub-sections:
+Simple introduction of web page purpose and what value it is bringing to an end-user.
+Formatted in three main sub-sections:
 * Movie reference pitch
 * Welcoming "Hero" area with picture composition
-* Quick box-model overview of the web page mani section
+* Quick box-model overview of the web page main section
 
 #### TRIP
 Section introduction with intro reference and "call-action" headings
-Formated in two main sub-sections:
+Formatted in two main sub-sections:
 * Flights booking web services quick links.
 * Ireland public transportation most popular options and guidelines.
 * Google Maps with a tracker for public transportation "hot" spots in Dublin, Ireland.
 
 #### WORK
 Introduction and quick links of the most popular Irish online recruitment sites with an additional section for online education possibilities
-Formated in two main sub-sections:
+Formatted in two main sub-sections:
 * START HERE - Most popular job search services for Irish job market.
 * UPGRADE - Most popular online courses and full time education institutions.
 
@@ -83,7 +83,7 @@ Formatted in three main sub-sections:
 
 #### CROS-PROJECT FEATURES
 The Main Menu is placed on to header and footer portion of the webpage
-The menu bar is designed for large and small devices for an easier user experience. 
+The menu bar is designed for large and small devices for an easier user experience.
 Footer offers a simple user form for newsletter services.
 
 ### Features Left to Implement
@@ -91,29 +91,29 @@ Expansion plan:
 * Implementing website functionality for UX regarding Sign Up and Login forms validation.
 * Implementing comments section for the users, regarding specific website content.
 * Implement section for all necessary documentation in Ireland, regarding and PPS number, Bank Account option.
-* Implement section regarding social events and gathering for necessary user connection expansion. 
+* Implement section regarding social events and gathering for necessary user connection expansion.
 * Connect to external API for creating user account regarding receiving news and updates - database configuration.
 * Offer add for recruitment agencies  - the connection between end-user and possible employer or recruitment agent.
 
 ## TECHNOLOGIES USED
 **HTML** - Semantic elements - nav, section, footer
 **CSS3**
-**SASS** - Preprocessor - tools included -
+**SASS** - Pre-processor - tools included -
 * SASS Compiler -  package.json - `"scripts" {"watch" : "node-sass -o public/css public/scss/index.scss -w" }`
 * SASS interpolation
-* SASS Mixins - Responsive layout functions
+* SASS Mixings - Responsive layout functions
 * SASS Variables
 * SASS Nesting
 
 **JavaScript** - Programming language
 
-**jQUERY** - JavaScript library
+**jQuery** - JavaScript library
 
-**BOOTSTRAP 4.5.3**  - Mani layout control - responsive layout usage - helper classe included - example -  .mt, .pt, .d-none .d-md-block, etc...
+**BOOTSTRAP 4.5.3**  - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
 
-* Libery provider: https://getbootstrap.com
+* Library provider: https://getbootstrap.com
 
-* Libery URL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
+* LibraryURL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
 
 **GOOGLE CDN's and GOOGLE API**
 
@@ -122,10 +122,10 @@ Expansion plan:
 * Google API Google Maps API - `<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDadfKOCQK6Iu6tBeOXDAvZp5071lP8Us0&callback=initMap"></script>`
 
 **EMAILJS**
-* Emailjs - Libery provider - https://dashboard.emailjs.com -  `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
+* Emailjs - Library provider - https://dashboard.emailjs.com -  `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
 
 **JASMINE BEHAVIOR-DRIVEN JavaScript**
-* Libery provider: https://jasmine.github.io/
+* Library provider: https://jasmine.github.io/
 
 **NODE.JS** -  Open-source, cross-platform, back-end, JavaScript runtime environment - href="https://nodejs.org/en/
 
@@ -137,44 +137,44 @@ Expansion plan:
 
 **IDE** - Visual Studio Code - https://code.visualstudio.com/ and Atom - https://atom.io/
 
-**ADOBE PHOTOSHOP** - Images pereparetion - Logo Design
+**ADOBE PHOTOSHOP** - Images preparation - Logo Design
 
 **ADOBE ILLUSTRATOR** - Logo Design
 
-**BALSAMIQ** - Wireframse design tool
+**BALSAMIQ** - Wireframes design tool
 
 
 ## TESTING
 
-Major testing web browsers included in project testing - Goggle Chrome - Mozilla Firefox  - Microsoft Edge 
+Major testing web browsers included in project testing - Goggle Chrome - Mozilla Firefox  - Microsoft Edge
 When the website is successfully uploaded to GitHub and the website URL is generated, the testing process can start:
 
-* STEP 1.	Copy website URL to -  **W3C Markup Validation Service**
-* STEP 2.	Correct all code errors and warnings - a possible source of solutions on **stack overflow** -  https://stackoverflow.com/ 
-* STEP 3.	Check any console error by using Google Chrome or Mozzila Firefox  **Developer Tools** -  shortcut - Ctrl + Shift + I
+* STEP 1.	Copy website URL to -  **W3C Mark-up Validation Service**
+* STEP 2.	Correct all code errors and warnings - a possible source of solutions on **stack overflow** -  https://stackoverflow.com/
+* STEP 3.	Check any console error by using Google Chrome or Mozilla Firefox  **Developer Tools** -  shortcut - Ctrl + Shift + I
 * STEP 4.	By using Developers Tools chose option **Toggle device toolbar** and test the website on all devices - starting from the smallest device and working to the largest
 * STEP 5.	When testing the website on multiple devices and screen sizes is recommended to check viewport rotation on mobile devices since the viewport is different for portrait and landscape orientation.
 * STEP 6.	Check website breaking points for smartphones, tablets, and desktop devices
 * STEP 7. 	Check paragraph margins, padding, and font sizing on small and larger devices
 * STEP 8.	Make sure all external links are opening in a separate browser tab and leading the user to the correct website destination
-* STEP 9.	Check Color contras for foreground and background colors by using **Contrast Checker** - https://contrastchecker.com/
+* STEP 9.	Check Colour contras for foreground and background colours by using **Contrast Checker** - https://contrastchecker.com/
 * STEP 10.	Check code organization for future updates
 
 
 Development and testing overview in order as follow:
-* xxs max - MAX width 240px     - elemet padding - element margins - center allignmet - fluent font size
-* xxs   - MIN width 240px       - elemet padding - element margins - center allignmet - fluent font size
-* xs    - MIN width - 360px     - elemet padding - element margins - center allignmet - fluent font size
-* sm    - MIN width - 576px     - elemet padding - element margins - center allignmet - fluent font size
-* md    - MIN width - 768px     - elemet padding - element margins - center allignmet - fluent font size
-* lg    - MIN width - 992px     - elemet padding - element margins - center allignmet - fluent font size
-* xl    - MIN width - 1200px    - elemet padding - element margins - center allignmet - fluent font size
+* xxs max - MAX width 240px     - element padding - element margins - centre alignment - fluent font size
+* xxs   - MIN width 240px       - element padding - element margins - centre alignment - fluent font size
+* xs    - MIN width - 360px     - element padding - element margins - centre alignment - fluent font size
+* sm    - MIN width - 576px     - element padding - element margins - centre alignment - fluent font size
+* md    - MIN width - 768px     - element padding - element margins - centre alignment - fluent font size
+* lg    - MIN width - 992px     - element padding - element margins - centre alignment - fluent font size
+* xl    - MIN width - 1200px    - element padding - element margins - centre alignment - fluent font size
 
 ### TESTING TOOLS
 
 **MOZILLA FIREFOX**     -   https://www.mozilla.org/en-US/firefox/new/
 
-**GOOGLE CHROME**       -   https://www.google.com/chrome 
+**GOOGLE CHROME**       -   https://www.google.com/chrome
 
 **MICROSOFT EDGE**      -   https://www.microsoft.com/en-us/edge
 
@@ -187,14 +187,14 @@ Development and testing overview in order as follow:
 * git remote add origin https://github.com/tsokac2/newIrishLife.2.0.git
 * git push -u origin main
 
-**CODE VALIDATION PLATFORMS** - W3C Markup Validation Service - https://validator.w3.org/
+**CODE VALIDATION PLATFORMS** - W3C Mark-up Validation Service - https://validator.w3.org/
 
 **CONTRAST CHECKER** - https://contrastchecker.com/
 
 
 ### W3 Validator Error's and Solutions VALIDATOR ERROR's and SOLUTIONS
 
-**ISSUE #1** 
+**ISSUE #1**
 
 Error: Duplicate ID username
 
@@ -202,17 +202,17 @@ Error: Duplicate ID username
 
 SOLUTION: Create unique  ID - `id="username"` for Sign Up form  - `id="username-log"` for Login form
 
-**ISSUE #2** 
+**ISSUE #2**
 
 Error: Bad value public\img\Logo.png for attribute src on element img: Backslash ("\") used as path segment delimiter.
 
 `<img src="assets\img\Logo.png" width="100" alt="New Irish Logo"></a>`
 
-SOLUTION: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>` - change "\" to "/" 
+SOLUTION: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>` - change "\" to "/"
 
 **ISSUE #3**
 
-The aria-labelledby attribute must point to an element in the same document. 
+The aria-labelledby attribute must point to an element in the same document.
 
 `<div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">`
 
@@ -232,7 +232,7 @@ Error: The type attribute is unnecessary for JavaScript resources
 SOLUTION: Remove type attribute from`<script  src="assets/js/emailnews.js"></script>`
 
 **ISSUE #6**
-Error: No space between attributes 
+Error: No space between attributes
 
 SOLUTION: Add space between `<script>` and `src=""` attribute in `<script  src="assets/js/emailnews.js"></script>`
 
@@ -253,7 +253,7 @@ Error:  jQuery .show() and .hide() - not applicable on DOM elements
 SOLUTION: Implement jQuery Core 3.5.1 - uncompressed version - [jQuery](https://code.jquery.com/)
 
 **ISSUE #3**
-Error: 
+Error:
 > Google Maps API - "We have detected a publicly accessible Google API key associated with the following Google Cloud Platform project"
 SOLUTION:
 1. If this key is intended to be public (or if a publicly accessible key isn’t preventable):
@@ -275,7 +275,7 @@ Project link -  [newIrishLife](https://tsokac2.github.io/newIrishLife/)
 **GIT CMD**  -  https://git-scm.com/
 
 STEPS:
-* Log in to GitHub repository: `git config --global user.name "your_username` 
+* Log in to GitHub repository: `git config --global user.name "your_username`
 * Initiate git add for all or single file in root folder: `git add .` //all or `git add "file name"`
 * Commit the last incremental change: `git commit -m "Commit detail comment"`
 * Upload to master branch: `git push -u git push -u origin main`
@@ -287,5 +287,3 @@ STEPS:
 * Boostrap coursl fade efect - [Source](https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/)
 * Resizing Google Maps markers  - [Source](https://stackoverflow.com/questions/15096461/resize-google-maps-marker-icon-image)
 * Home page icons - [Flaticon](https://www.flaticon.com/)
-
-
