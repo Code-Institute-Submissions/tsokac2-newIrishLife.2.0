@@ -1,3 +1,4 @@
+/*Send email function*/ 
 function submitEmail(inputForm) {
     emailjs.send("service_yf3pn0p", "newIrishLife", {
         "from_name": inputForm.name.value,
@@ -12,3 +13,4 @@ function submitEmail(inputForm) {
         });
         return false;
 };
+
