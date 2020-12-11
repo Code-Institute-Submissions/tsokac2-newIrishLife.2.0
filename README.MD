@@ -135,23 +135,36 @@ Google Maps Api IMPLEMENTATION STEPS:
   * Log in to Emailjs dashboard - https://dashboard.emailjs.com/sign-in
   * Add New Service - **Gmail**
   * Email Templates - **Create New Template**
-  * use following syntax for form attributes, syntax `{{form_name}}`
-    > Email content from sent from user:
-      Hello Team,
-      My name is {{from_name}}!
-      I want to subscribe to your newsletter email services.
-      Best
-      {{from_name}}
+  * Use following syntax for form attributes, syntax `{{form_name}}`
+
+    Email content from sent from user:
+
+    Hello Team,
+
+    My name is {{from_name}}!
+
+    I want to subscribe to your newsletter email services.
+
+    Best
+
+    {{from_name}}
 
   * Select the Auto-Reply option and place the following:
-    > SUBJECT: On behalf of all of us from newIrishLife, welcome onboard!
-    >  CONTENT:
-    >  Hello `{{from_name}},`
-    >  We are delighted to have you among us.
-    >  On behalf of all the members and the management, we would like to extend our warmest welcome and good wishes!
-    >  Stay tuned for **FRESH NEWS** about our services...
-    >  Best,
-    >  Info NewIrishLife
+    SUBJECT: On behalf of all of us from newIrishLife, welcome onboard!
+
+    CONTENT:
+
+    Hello `{{from_name}},`
+
+    We are delighted to have you among us.
+
+    On behalf of all the members and the management, we would like to extend our warmest welcome and good wishes!
+
+    Stay tuned for **FRESH NEWS** about our services...
+
+    Best,
+
+    Info NewIrishLife
 
 * SCRIPTS INTEGRATION:
   * Before colosing **`<head>`** element place folowing **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
