@@ -126,13 +126,68 @@ Expansion plan:
 * Google Fonts - Lato `<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@400;700&display=swap" rel="stylesheet">`
 * Google API Google Maps API - `<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDadfKOCQK6Iu6tBeOXDAvZp5071lP8Us0&callback=initMap"></script>`
 
-Google Maps Api IMPLEMENTATION STEPS:
-* STEP#1 -
+**GOOGLE MAPS API IMPLEMENTATION STEPS:**
+
+* IMPLEMENTATION
+
+To get started with Google maps API implementation follow these instructions short instructions:
+
+  * Pick Google Maps product [More info](https://developers.google.com/maps/gmp-get-started#quickstart)
+  * Create a project.
+  * Set up a billing account.
+  * Enable APIs associated with the products you picked.
+  * Create an API key-  documentation source - [API Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+
+* SCRIPTS INTEGRATION:
+  * In **trip.html** place `<scripts>` in following order:
+    ```
+	   <script src="assets/js/markerclusterer_compiled.js"></script>
+     <script defer src="https://maps.googleapis.com/maps/api/js?key="YOUR API KEY"&callback=initMap"></script> -
+     <script src="assets/js/maps.js"></script>
+
+    ```
+  * Create `<div>` element with ID `<div id="map">` render map place 
+  * Marker Cluster CDN - [SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)
+  * Creating callback function in `<script src="assets/js/maps.js"></script>`:
+  ```
+      function initMap() {
+          const map = new google.maps.Map(document.getElementById("map"), {
+              zoom : 11,
+              center: {
+                  lat: 53.350140,
+                  lng: -6.266155
+              }
+          });
+
+        google.maps.event.addDomListener(window, "resize", function() {
+          var center = map.getCenter();
+          google.maps.event.trigger(map, "resize");
+          map.setCenter(center);
+        });
+
+          let busMarkerIcon = {
+              url:"assets/img/bus_marker.png",
+              scaledSize: new google.maps.Size(50, 50)
+          }
+
+    const Bus747Stop = new google.maps.Marker({
+        position: {lat: 53.42810, lng: -6.24407},
+        map: map,
+        title: "BUS 747 Stop",
+          icon: busMarkerIcon
+      });
+    }
+
+  ```
+* `function initMap() {..}` maps location on major scale in this case Dublin, Ireland
+* `google.maps.event.addDomListener(window, "resize", function() {...}` adding Google Maps DOM listener
+* `let busMarkerIcon = {...}` creating custom map marker with `scaledSize` property
+* `const Bus747Stop = new google.maps.Marker({...});` pointg to Bus Stop for 747 Dublin Bus line for Dublin Airport
 
 
 **EMAILJS**
 * IMPLEMENTATION
-  * Log in to Emailjs dashboard - https://dashboard.emailjs.com/sign-in
+  * Log in to EmailJs dashboard - https://dashboard.emailjs.com/sign-in
   * Add New Service - **Gmail**
   * Email Templates - **Create New Template**
   * Use following syntax for form attributes, syntax `{{form_name}}`
@@ -175,7 +230,7 @@ Google Maps Api IMPLEMENTATION STEPS:
 
 * SCRIPTS INTEGRATION:
   * Before colosing **`<head>`** element place folowing **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
-  * place following callback function after **CDN** link
+  * Place following callback function after **CDN** link
 
   ```
   <script type="text/javascript">
@@ -205,15 +260,7 @@ Google Maps Api IMPLEMENTATION STEPS:
       };
 
   ```
-  * Test email service against the random test email address
-
-
-
-**GOOGLE MAPS API IMPLEMENTATION STEPS:**
-
-
-
-
+  * Test email service against the random email address
 
 **JASMINE BEHAVIOR-DRIVEN JavaScript**
 * Library provider: https://jasmine.github.io/
