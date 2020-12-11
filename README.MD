@@ -145,13 +145,13 @@ Google Maps Api IMPLEMENTATION STEPS:
 
   * Select the Auto-Reply option and place the following:
     > SUBJECT: On behalf of all of us from newIrishLife, welcome onboard!
-      CONTENT:
-      Hello `{{from_name}},`
-      We are delighted to have you among us.
-      On behalf of all the members and the management, we would like to extend our warmest welcome and good wishes!
-      Stay tuned for **FRESH NEWS** about our services...
-      Best,
-      Info NewIrishLife
+    >  CONTENT:
+    >  Hello `{{from_name}},`
+    >  We are delighted to have you among us.
+    >  On behalf of all the members and the management, we would like to extend our warmest welcome and good wishes!
+    >  Stay tuned for **FRESH NEWS** about our services...
+    >  Best,
+    >  Info NewIrishLife
 
 * SCRIPTS INTEGRATION:
   * Before colosing **`<head>`** element place folowing **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
