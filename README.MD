@@ -134,7 +134,7 @@ Google Maps Api IMPLEMENTATION STEPS:
 * Emailjs - Library provider - https://dashboard.emailjs.com -  `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
 
 Google Maps Api IMPLEMENTATION STEPS:
-* STEP#1 - 
+* STEP#1 -
 
 **JASMINE BEHAVIOR-DRIVEN JavaScript**
 * Library provider: https://jasmine.github.io/
@@ -191,13 +191,6 @@ Development and testing overview in order as follow:
 **MICROSOFT EDGE**      -   https://www.microsoft.com/en-us/edge
 
 **GITCMD**              -   https://git-scm.com/
-* SERVER STARTUP:
-* git init
-* git add README.md
-* git commit -m "first commit"
-* git branch -M main
-* git remote add origin https://github.com/tsokac2/newIrishLife.2.0.git
-* git push -u origin main
 
 **CODE VALIDATION PLATFORMS** - W3C Mark-up Validation Service - https://validator.w3.org/
 
@@ -287,10 +280,18 @@ Project link -  [newIrishLife](https://tsokac2.github.io/newIrishLife.2.0/)
 **GIT CMD**  -  https://git-scm.com/
 
 STEPS:
-* Log in to GitHub repository: `git config --global user.name "your_username`
-* Initiate git add for all or single file in root folder: `git add .` //all or `git add "file name"`
-* Commit the last incremental change: `git commit -m "Commit detail comment"`
-* Upload to master branch: `git push -u git push -u origin main`
+* Create a new repository on GitHub https://github.com
+* Download Git CMD app from https://git-scm.com/
+* Install and Git CMD app on your local devices
+* Navigate to the root folder of the project
+* Initialize project root folder with the following command: `git init`
+* Log in to GitHub repository with the following command: `git config --global user. name "username"`
+* Initiate git add for all or a single file in the root folder: `git add .` //all or `git add "filename"`
+* Commit the last incremental change: `git commit -m "Commit comment"`
+* Push/upload all commits to master branch: `git push -u git push -u origin main`
+* On GitHub select project repository, under "Settings" navigate to "GitHub Pages" and activate the "live" version of the project
+* More information about Git version control - https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
+
 
 ## CREDITS
 * Intro pitch - *"The Hobbit: An Unexpected Journey"* - Wiki - https://en.wikipedia.org/wiki/The_Hobbit_(film_series)
