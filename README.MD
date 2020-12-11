@@ -137,6 +137,7 @@ Google Maps Api IMPLEMENTATION STEPS:
   * Email Templates - **Create New Template**
   * Use following syntax for form attributes, syntax `{{form_name}}`
 
+  ```
     Email content from sent from user:
 
     Hello Team,
@@ -149,10 +150,14 @@ Google Maps Api IMPLEMENTATION STEPS:
 
     {{from_name}}
 
+  ```
+
   * Select the Auto-Reply option and place the following:
     SUBJECT: On behalf of all of us from newIrishLife, welcome onboard!
 
     CONTENT:
+
+```
 
     Hello `{{from_name}},`
 
@@ -166,9 +171,12 @@ Google Maps Api IMPLEMENTATION STEPS:
 
     Info NewIrishLife
 
+```
+
 * SCRIPTS INTEGRATION:
   * Before colosing **`<head>`** element place folowing **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
   * place following callback function after **CDN** link
+
   ```
   <script type="text/javascript">
         (function() {
@@ -179,6 +187,7 @@ Google Maps Api IMPLEMENTATION STEPS:
   ```
   * Check `User ID` under "Integration" option on EmailJs dashboard
   * Create `submitEmail` function in `<script src="assets/js/emailnews.js">`
+
   ```
       function submitEmail(inputForm) {
           emailjs.send("service_yf3pn0p", "newIrishLife", {
@@ -200,7 +209,7 @@ Google Maps Api IMPLEMENTATION STEPS:
 
 
 
-**Google Maps Api IMPLEMENTATION STEPS:**
+**GOOGLE MAPS API IMPLEMENTATION STEPS:**
 
 
 
