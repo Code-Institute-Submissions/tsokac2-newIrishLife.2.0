@@ -63,6 +63,7 @@ Formatted in three main sub-sections:
 
 #### TRIP
 Section introduction with intro reference and "call-action" headings
+
 Formatted in two main sub-sections:
 * Flights booking web services quick links.
 * Ireland public transportation most popular options and guidelines.
@@ -70,20 +71,24 @@ Formatted in two main sub-sections:
 
 #### WORK
 Introduction and quick links of the most popular Irish online recruitment sites with an additional section for online education possibilities
+
 Formatted in two main sub-sections:
 * START HERE - Most popular job search services for Irish job market.
 * UPGRADE - Most popular online courses and full time education institutions.
 
 #### LIFE
 Section with life essentials factors after moving to Ireland
+
 Formatted in three main sub-sections:
 * Accommodation online search agencies
 * Mobile/internet networks providers
 * Irish Top food chains for grocery shopping.
 
 #### CROS-PROJECT FEATURES
-The Main Menu is placed on to header and footer portion of the webpage
+The Main Menu is placed on to header and footer portion of the webpage.
+
 The menu bar is designed for large and small devices for an easier user experience.
+
 Footer offers a simple user form for newsletter services.
 
 ### Features Left to Implement
@@ -121,8 +126,15 @@ Expansion plan:
 * Google Fonts - Lato `<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@400;700&display=swap" rel="stylesheet">`
 * Google API Google Maps API - `<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDadfKOCQK6Iu6tBeOXDAvZp5071lP8Us0&callback=initMap"></script>`
 
+Google Maps Api IMPLEMENTATION STEPS:
+* STEP#1 -
+
+
 **EMAILJS**
 * Emailjs - Library provider - https://dashboard.emailjs.com -  `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
+
+Google Maps Api IMPLEMENTATION STEPS:
+* STEP#1 - 
 
 **JASMINE BEHAVIOR-DRIVEN JavaScript**
 * Library provider: https://jasmine.github.io/
