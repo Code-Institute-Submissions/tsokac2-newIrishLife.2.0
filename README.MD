@@ -38,13 +38,13 @@ Well, not anymore. *
 
 ### Wireframes
 
-General Design idea and Elements order - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_03.png)
+General Design idea and Elements order          - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_03.png)
 
-Responsive Layout Planning - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_04.png)
+Responsive Layout Planning                      - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_04.png)
 
-Main Layout for Larger and Small screens - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_02.png)
+Main Layout for Larger and Small screens        - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_02.png)
 
-Google Maps API Implementation - **Trip.html** - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_01.png)
+Google Maps API Implementation - **Trip.html**  - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_01.png)
 
 
 #### Main Layout
@@ -110,11 +110,11 @@ Expansion plan:
 * SASS Variables
 * SASS Nesting
 
-**JavaScript** - Programming language
+**JavaScript**        - Programming language
 
-**jQuery** - JavaScript library https://code.jquery.com/
+**jQuery**            - JavaScript library https://code.jquery.com/
 
-**BOOTSTRAP 4.5.3**  - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
+**BOOTSTRAP 4.5.3**   - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
 
 * Library provider: https://getbootstrap.com
 
@@ -131,10 +131,67 @@ Google Maps Api IMPLEMENTATION STEPS:
 
 
 **EMAILJS**
-* Emailjs - Library provider - https://dashboard.emailjs.com -  `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
+* IMPLEMENTATION
+  * Log in to Emailjs dashboard - https://dashboard.emailjs.com/sign-in
+  * Add New Service - **Gmail**
+  * Email Templates - **Create New Template**
+  * use following syntax for form attributes, syntax `{{form_name}}`
+    > Email content from sent from user:
+      Hello Team,
+      My name is {{from_name}}!
+      I want to subscribe to your newsletter email services.
+      Best
+      {{from_name}}
 
-Google Maps Api IMPLEMENTATION STEPS:
-* STEP#1 -
+  * Select the Auto-Reply option and place the following:
+    > SUBJECT: On behalf of all of us from newIrishLife, welcome onboard!
+      CONTENT:
+      Hello `{{from_name}},`
+      We are delighted to have you among us.
+      On behalf of all the members and the management, we would like to extend our warmest welcome and good wishes!
+      Stay tuned for **FRESH NEWS** about our services...
+      Best,
+      Info NewIrishLife
+
+* SCRIPTS INTEGRATION:
+  * Before colosing **`<head>`** element place folowing **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
+  * place following callback function after **CDN** link
+  ```
+  <script type="text/javascript">
+        (function() {
+        emailjs.init("user_hI6S08d1aK1XKKU2VWtOI");
+        })();
+  </script>
+
+  ```
+  * Check `User ID` under "Integration" option on EmailJs dashboard
+  * Create `submitEmail` function in `<script src="assets/js/emailnews.js">`
+  ```
+      function submitEmail(inputForm) {
+          emailjs.send("service_yf3pn0p", "newIrishLife", {
+              "from_name": inputForm.name.value,
+              "from_email": inputForm.email.value
+          })
+          .then(
+              function (response) {
+                  console.log("SUCCESS", response);
+              },
+              function (error) {
+                  console.log("FAILED", error);
+              });
+              return false;
+      };
+
+  ```
+  * Test email service against the random test email address
+
+
+
+**Google Maps Api IMPLEMENTATION STEPS:**
+
+
+
+
 
 **JASMINE BEHAVIOR-DRIVEN JavaScript**
 * Library provider: https://jasmine.github.io/
@@ -155,22 +212,21 @@ Google Maps Api IMPLEMENTATION STEPS:
 
 **BALSAMIQ** - Wireframes design tool
 
-
 ## TESTING
 
 Major testing web browsers included in project testing - Goggle Chrome - Mozilla Firefox  - Microsoft Edge
 When the website is successfully uploaded to GitHub and the website URL is generated, the testing process can start:
 
-* STEP 1.	Copy website URL to -  **W3C Mark-up Validation Service**
-* STEP 2.	Correct all code errors and warnings - a possible source of solutions on **stack overflow** -  https://stackoverflow.com/
-* STEP 3.	Check any console error by using Google Chrome or Mozilla Firefox  **Developer Tools** -  shortcut - Ctrl + Shift + I
-* STEP 4.	By using Developers Tools chose option **Toggle device toolbar** and test the website on all devices - starting from the smallest device and working to the largest
-* STEP 5.	When testing the website on multiple devices and screen sizes is recommended to check viewport rotation on mobile devices since the viewport is different for portrait and landscape orientation.
-* STEP 6.	Check website breaking points for smartphones, tablets, and desktop devices
-* STEP 7. 	Check paragraph margins, padding, and font sizing on small and larger devices
-* STEP 8.	Make sure all external links are opening in a separate browser tab and leading the user to the correct website destination
-* STEP 9.	Check Colour contras for foreground and background colours by using **Contrast Checker** - https://contrastchecker.com/
-* STEP 10.	Check code organization for future updates
+* STEP 1.	  Copy website URL to -  **W3C Mark-up Validation Service**
+* STEP 2.	  Correct all code errors and warnings - a possible source of solutions on **stack overflow** -  https://stackoverflow.com/
+* STEP 3.	  Check any console error by using Google Chrome or Mozilla Firefox  **Developer Tools** -  shortcut - Ctrl + Shift + I
+* STEP 4.	  By using Developers Tools chose option **Toggle device toolbar** and test the website on all devices - starting from the smallest device and working to the largest
+* STEP 5.	  When testing the website on multiple devices and screen sizes is recommended to check viewport rotation on mobile devices since the viewport is different for portrait and landscape orientation.
+* STEP 6.	  Check website breaking points for smartphones, tablets, and desktop devices
+* STEP 7.   Check paragraph margins, padding, and font sizing on small and larger devices
+* STEP 8.	  Make sure all external links are opening in a separate browser tab and leading the user to the correct website destination
+* STEP 9.	  Check Colour contras for foreground and background colours by using **Contrast Checker** - https://contrastchecker.com/
+* STEP 10.  Check code organization for future updates
 
 
 Development and testing overview in order as follow:
@@ -271,7 +327,7 @@ SOLUTION:
 The security of your Google Cloud Platform account(s) is important to us.
 
 
-### TESTING WITH JASMINE [VIEV](--- LINK --)
+### TESTING WITH JASMINE [VIEV](https://github.com/tsokac2/newIrishLife.2.0/blob/main/JASMINETESTING.MD)
 
 ## DEPLOYMENT
 
@@ -297,6 +353,6 @@ STEPS:
 * Intro pitch - *"The Hobbit: An Unexpected Journey"* - Wiki - https://en.wikipedia.org/wiki/The_Hobbit_(film_series)
 * Website images source - [UNSPLASH](https://unsplash.com/s/photos/smartphone
 * Website images source - [PIXABAY](https://pixabay.com/photos)
-* Bootstrap carousel fade effect - [Source](https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/)
+* Bootstrap Carousel Fade Effect - [Source](https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/)
 * Resizing Google Maps markers  - [Source](https://stackoverflow.com/questions/15096461/resize-google-maps-marker-icon-image)
 * Home page icons - [Flaticon](https://www.flaticon.com/)
