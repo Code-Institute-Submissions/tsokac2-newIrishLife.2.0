@@ -112,7 +112,7 @@ Expansion plan:
 
 **JavaScript** - Programming language
 
-**jQuery** - JavaScript library
+**jQuery** - JavaScript library https://code.jquery.com/
 
 **BOOTSTRAP 4.5.3**  - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
 
