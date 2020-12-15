@@ -66,7 +66,7 @@ Google Maps API Implementation - **Trip.html**  - [View](https://github.com/tsok
 Simple introduction of web page purpose and what value it is bringing to an end-user.
 Formatted in three main sub-sections:
 * Movie reference pitch
-* Welcoming "Hero" area with picture composition
+* Welcoming **_"Hero"_** area with picture composition
 * Quick box-model overview of the web page main section
 * **Newsletter** user email subscribe services are placed in the footer section for **Home.html**, **Trip.html**, **Work.html**, and **Life.html**  - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email.png)
 
@@ -74,8 +74,9 @@ Formatted in three main sub-sections:
 Section introduction with intro reference and "call-action" headings
 
 Formatted in two main sub-sections:
-* Flights booking web services quick links.
-* Ireland public transportation's most popular options and guidelines.
+* **_CHOOSE WISELY_** Flights booking web services.
+* **HOP ON** Ireland public transportation's most popular options and guidelines.
+* **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks.png)
 * **Google Maps** with a tracker for public transportation _"hot"_ spots in Dublin, Ireland with 3 markers in different colours for **Dublin Bus**, **Dart Train**, and **Luas** services - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/googlemap.png)
 
 #### WORK
