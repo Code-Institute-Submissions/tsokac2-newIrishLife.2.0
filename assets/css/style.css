@@ -164,7 +164,7 @@ body {
           display: none; } }
       @media (min-width: 360px) {
         .section-home .intro-pitch .pitch-wrap .composition {
-          margin-top:  2rem;
+          margin-top:2rem;
           display: block; } }
       .section-home .intro-pitch .pitch-wrap .composition .comp-photo {
         width: 50%;
