@@ -91,9 +91,9 @@ Formatted in two main sub-sections:
 Section with life essentials factors after moving to Ireland
 
 Formatted in three main sub-sections:
-* Accommodation online search agencies
-* Mobile/internet networks providers
-* Irish Top food chains for grocery shopping.
+* **_ACCOMMODATION_** online search agencies
+* **_MOBILE NETWORKS_** Mobile/internet networks providers
+* **_GROCERY SHOPS_** Irish Top food chains for grocery shopping.
 * **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
 #### CROS-PROJECT FEATURES
