@@ -75,7 +75,7 @@ Section introduction with intro reference and "call-action" headings
 
 Formatted in two main sub-sections:
 * **_CHOOSE WISELY_** Flights booking web services.
-* **HOP ON** Ireland public transportation's most popular options and guidelines.
+* **_HOP ON_** Ireland public transportation's most popular options and guidelines.
 * **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks.png)
 * **Google Maps** with a tracker for public transportation _"hot"_ spots in Dublin, Ireland with 3 markers in different colours for **Dublin Bus**, **Dart Train**, and **Luas** services - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/googlemap.png)
 
@@ -83,8 +83,9 @@ Formatted in two main sub-sections:
 Introduction and quick links of the most popular Irish online recruitment sites with an additional section for online education possibilities
 
 Formatted in two main sub-sections:
-* START HERE - Most popular job search services for Irish job market.
-* UPGRADE - Most popular online courses and full time education institutions.
+* **_START HERE_** - Most popular job search services for Irish job market.
+* **_BACK TO SCHOOL_** - Most popular online courses and full time education institutions.
+* **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_work.png)
 
 #### LIFE
 Section with life essentials factors after moving to Ireland
