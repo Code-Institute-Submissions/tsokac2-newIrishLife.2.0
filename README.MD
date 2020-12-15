@@ -165,6 +165,27 @@ jQuery DOM Events used for above-mentioned cards element functionality:
 * `$("#Card1").addClass("wrap-rel");`  adding class `.addClass("rel-card")` to element with id **Card1**
 
 The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");`
+  ```
+  $("#hideLinks1").click(function (){
+        var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).hide(400);
+        $(".blur").fadeOut(300);
+        $("#Card1").removeClass("wrap-rel");
+  });
+
+  ```
+
+  If user click anywhere on the screen "loaded" elements will "hide" and that is archived with following `.click()` DOM effect on `<div class="blur>`.
+  `.blur` element contains absolute position properties with a z-index of 1000.
+
+  ```
+  $(".blur").click(function () {
+         $(".blur").fadeOut(300);
+         $("#Card1").removeClass("wrap-rel");
+         $(".hideLinks1-grid").hide(400);
+  });
+
+  ```
 
 
 **BOOTSTRAP 4.5.3**   - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
