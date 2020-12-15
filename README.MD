@@ -94,6 +94,7 @@ Formatted in three main sub-sections:
 * Accommodation online search agencies
 * Mobile/internet networks providers
 * Irish Top food chains for grocery shopping.
+* **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
 #### CROS-PROJECT FEATURES
 The Main Menu is placed on to header and footer portion of the webpage.
