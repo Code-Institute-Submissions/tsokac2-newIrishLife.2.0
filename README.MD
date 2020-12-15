@@ -402,6 +402,8 @@ Development and testing overview in order as follow:
 
 **CODE VALIDATION PLATFORMS** - W3C Mark-up Validation Service - https://validator.w3.org/
 
+**CODE VALIDATION PLATFORMS** - W3C CSS Validation Service - https://jigsaw.w3.org/css-validator/
+
 **CONTRAST CHECKER** - https://contrastchecker.com/
 
 
@@ -453,6 +455,8 @@ SOLUTION: Add space between `<script>` and `src=""` attribute in `<script  src="
 Error: Start tag seen without seeing a doctype first. Expected `<!DOCTYPE html>`
 
 SOLUTION: Add doctype before opening `<html>` DOM element
+
+
 
 ### FireFox and Chrome Developer Tools Console
 
