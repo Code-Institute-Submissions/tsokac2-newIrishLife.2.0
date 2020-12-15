@@ -75,7 +75,7 @@ Section introduction with intro reference and "call-action" headings
 Formatted in two main sub-sections:
 * Flights booking web services quick links.
 * Ireland public transportation's most popular options and guidelines.
-* **Google Maps** with a tracker for public transportation _"hot"_ spots in Dublin, Ireland.
+* **Google Maps** with a tracker for public transportation _"hot"_ spots in Dublin, Ireland with 3 markers in different colours for **Dublin Bus**, **Dart Train**, and **Luas** services. [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/googlemap.png)
 
 #### WORK
 Introduction and quick links of the most popular Irish online recruitment sites with an additional section for online education possibilities
