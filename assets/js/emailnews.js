@@ -12,4 +12,4 @@ function submitEmail(inputForm) {
             console.log("FAILED", error);
         });
         return false;
-};
+}
