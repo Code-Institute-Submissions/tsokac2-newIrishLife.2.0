@@ -6,7 +6,7 @@ function initMap() {
                 lng: -6.266155
             }
         });
-/*CODE SOURCE: https://developers.google.com/maps/documentation/javascript/overview*/
+/*addDomListener EVENTS  - CODE SOURCE: https://developers.google.com/maps/documentation/javascript/overview*/
   google.maps.event.addDomListener(window, "resize", function() {
     var center = map.getCenter();
     google.maps.event.trigger(map, "resize");
