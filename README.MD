@@ -146,7 +146,7 @@ To get started with Google maps API implementation follow these instructions sho
      <script src="assets/js/maps.js"></script>
 
     ```
-  * Create `<div>` element with ID `<div id="map">` render map place 
+  * Create `<div>` element with ID `<div id="map">` render map place
   * Marker Cluster CDN - [SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)
   * Creating callback function in `<script src="assets/js/maps.js"></script>`:
   ```
@@ -297,6 +297,7 @@ When the website is successfully uploaded to GitHub and the website URL is gener
 * STEP 9.	  Check Colour contras for foreground and background colours by using **Contrast Checker** - https://contrastchecker.com/
 * STEP 10.  Check code organization for future updates
 
+### TESTING WITH JASMINE [VIEV](https://github.com/tsokac2/newIrishLife.2.0/blob/main/JASMINETESTING.MD)
 
 Development and testing overview in order as follow:
 * xxs max - MAX width - 240px     - element padding - element margins - centre alignment - fluent font size
@@ -395,8 +396,6 @@ SOLUTION:
 	- Add API key restrictions to your API key, if applicable.
 The security of your Google Cloud Platform account(s) is important to us.
 
-
-### TESTING WITH JASMINE [VIEV](https://github.com/tsokac2/newIrishLife.2.0/blob/main/JASMINETESTING.MD)
 
 ## DEPLOYMENT
 
