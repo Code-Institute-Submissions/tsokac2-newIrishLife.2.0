@@ -1,4 +1,4 @@
-/*Send email function*/ 
+/*Send email function - CODE SOURCE: https://www.emailjs.com/docs/sdk/installation/*/
 function submitEmail(inputForm) {
     emailjs.send("service_yf3pn0p", "newIrishLife", {
         "from_name": inputForm.name.value,
@@ -13,4 +13,3 @@ function submitEmail(inputForm) {
         });
         return false;
 };
-
