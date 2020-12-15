@@ -1050,7 +1050,7 @@ body {
   grid-gap: 2rem;
   padding: 0 4rem 2rem 4rem; }
   .nav-mobile .wrap {
-    border:  1px solid  rgba(201, 201, 201, 0.5);
+    border:  1px solid rgba(201, 201, 201, 0.5);
     background-color: #0f6367;
     padding-bottom: .5rem; }
     .nav-mobile .wrap--s {
