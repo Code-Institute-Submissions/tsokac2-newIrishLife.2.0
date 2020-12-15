@@ -410,9 +410,7 @@ In Visual Studio Code IDE add jshint extension with the following steps:
 
 	* File - Preferences - Extensions
 	* In Search field enter - jshint - click on green "Install" button
-
-To install jshint with Node.js npm package read documentation at https://jshint.com/install/
-
+  * To install jshint with Node.js npm package read documentation at https://jshint.com/install/
 
 **CONTRAST CHECKER** - https://contrastchecker.com/
 
@@ -421,60 +419,65 @@ To install jshint with Node.js npm package read documentation at https://jshint.
 
 **ISSUE #1**
 
-Error: Duplicate ID username
+_Error_: Duplicate ID username
 
 `<input type="text" id="username" placeholder="Username or Email">`
 
-SOLUTION: Create unique  ID - `id="username"` for Sign Up form  - `id="username-log"` for Login form
+_SOLUTION_: Create unique  ID - `id="username"` for Sign Up form  - `id="username-log"` for Login form
 
 **ISSUE #2**
 
-Error: Bad value public\img\Logo.png for attribute src on element img: Backslash ("\") used as path segment delimiter.
+_Error_: Bad value `public\img\Logo.png` for attribute src on element img: Backslash ("\") used as path segment delimiter.
 
 `<img src="assets\img\Logo.png" width="100" alt="New Irish Logo"></a>`
 
-SOLUTION: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>` - change "\" to "/"
+_SOLUTION_: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>` - change "\" to "/"
 
 **ISSUE #3**
 
-The aria-labelledby attribute must point to an element in the same document.
+_Error_: The aria-labelledby attribute must point to an element in the same document.
 
 `<div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">`
 
-SOLUTION: ` <div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="sing-in" aria-hidden="true">`
+_SOLUTION_: ` <div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="sing-in" aria-hidden="true">`
 
-SOLUTION SOURCE -  [Stackoverflow](https://stackoverflow.com/questions/39831658/how-to-fix-the-aria-labelledby-attribute-must-point-to-an-element-in-the-same-d)
+_SOLUTION SOURCE_ -  [Stackoverflow](https://stackoverflow.com/questions/39831658/how-to-fix-the-aria-labelledby-attribute-must-point-to-an-element-in-the-same-d)
 
 **ISSUE #4**
 
-Error: Duplicate attribute class.
+_Error_: Duplicate attribute class.
 
-SOLUTION: Remove class duplicates in `<a href="https://www.jetcost.ie/" target="_blank" class="q-links a">FLIGHTS</a>`
+_SOLUTION_: Remove class duplicates in `<a href="https://www.jetcost.ie/" target="_blank" class="q-links a">FLIGHTS</a>`
 
 **ISSUE #5**
-Error: The type attribute is unnecessary for JavaScript resources
 
-SOLUTION: Remove type attribute from`<script  src="assets/js/emailnews.js"></script>`
+_Error_: The type attribute is unnecessary for JavaScript resources
+
+_SOLUTION_: Remove type attribute from`<script  src="assets/js/emailnews.js"></script>`
 
 **ISSUE #6**
-Error: No space between attributes
 
-SOLUTION: Add space between `<script>` and `src=""` attribute in `<script  src="assets/js/emailnews.js"></script>`
+_Error_: No space between attributes
+
+_SOLUTION_: Add space between `<script>` and `src=""` attribute in `<script  src="assets/js/emailnews.js"></script>`
 
 **ISSUE #7**
-Error: Start tag seen without seeing a doctype first. Expected `<!DOCTYPE html>`
 
-SOLUTION: Add doctype before opening `<html>` DOM element
+_Error_: Start tag seen without seeing a doctype first. Expected `<!DOCTYPE html>`
+
+_SOLUTION_: Add doctype before opening `<html>` DOM element
 
 **ISSUE #8**
-Error: 	.section-home .quote p 	Value Error : font-size only 0 can be a unit. You must put a unit after your number : 1.5
 
-SOLUTION: Add unit type after font-size property value `font-size: 1.5rem;`
+_Error_: `.section-home .quote p` 	Value Error : font-size only 0 can be a unit. You must put a unit after your number : 1.5
+
+_SOLUTION_: Add unit type after font-size property value `font-size: 1.5rem;`
 
 **ISSUE #9**
-Error: .section-home .intro-pitch .pitch-wrap .composition 	Value Error : margin-top  2rem is not a margin-top value :  2rem
 
-SOLUTION: Remove exstra space in `margin-top:  2rem;` to `margin-top: 2rem;`
+_Error_: `.section-home .intro-pitch .pitch-wrap .composition` Value Error : margin-top  2rem is not a margin-top value :  2rem
+
+_SOLUTION_: Remove extra space in `margin-top:  2rem;` to `margin-top: 2rem;`
 
 
 ### FireFox and Chrome Developer Tools Console
