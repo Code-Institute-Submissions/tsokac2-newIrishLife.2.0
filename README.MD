@@ -124,7 +124,11 @@ Expansion plan:
 
 **JavaScript**        - Programming language
 
-**jQuery**            - JavaScript library https://code.jquery.com/
+**jQuery** -  APPLIED jQuery DOM EVENTS IN PROJECT  - JavaScript library https://code.jquery.com/
+
+**Trip.html**, **Work.html** and **Life.html** are containing Quick Links user cards elements. Every card element contains a Main link source to external services provider and a "Quick Links..." button element for loading detailed links when the user chose the services provider destination.  [Example Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
+
+
 
 **BOOTSTRAP 4.5.3**   - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
 
