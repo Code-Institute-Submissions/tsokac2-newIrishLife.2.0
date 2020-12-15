@@ -10,10 +10,10 @@ This website is a great starting point.
 ## UX
 
 **Story:**
-<h3 align="center">_Four years ago, one Croatian landed in Dublin, Ireland._
-_On the web, there was a lot of info about life in Ireland, but not essentials information in one place._
-_**Well, not anymore.**_
-</h3>
+<h4 align="center">Four years ago, one Croatian landed in Dublin, Ireland.
+On the web, there was a lot of info about life in Ireland, but not essentials information in one place.
+Well, not anymore.
+</h4>
 
 #### User Story
 
