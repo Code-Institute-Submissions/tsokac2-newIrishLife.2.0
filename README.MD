@@ -124,10 +124,35 @@ Expansion plan:
 
 **JavaScript**        - Programming language
 
-**jQuery** -  APPLIED jQuery DOM EVENTS IN PROJECT  - JavaScript library https://code.jquery.com/
+**jQuery** -  **APPLIED jQuery DOM EVENTS IN PROJECT**  - JavaScript library https://code.jquery.com/
 
 **Trip.html**, **Work.html** and **Life.html** are containing Quick Links user cards elements. Every card element contains a Main link source to external services provider and a "Quick Links..." button element for loading detailed links when the user chose the services provider destination.  [Example Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
+Card element HTML structure:
+  ```
+  <div id="Card10" class="wrap">
+       <a class="card-link-fav udemy_fav" href="https://www.udemy.com" target="_blank"><strong>Udemy.com</strong></a>
+       <div class="card-img">
+           <img src="assets/images/udemy.png" class="img-fluid" alt="Udemy">
+       </div>
+       <button id="showLinks10" class="load-links-btn">Quick Links...<i class="fas fa-sort-down"></i></button>
+       <p class="card-text">
+           The leading global marketplace for learning and instruction.
+           By connecting students all over the world to the best instructors,
+           Udemy is helping individuals reach their goals and pursue their dreams.
+       </p>
+       <div class="showLinks10-grid hideLinks10-grid text-center">
+           <div class="q-links-wrap">
+               <a href="https://www.udemy.com/" class="q-links a" target="_blank">CATEGORIES</a>
+               <a href="https://about.udemy.com/careers/" class="q-links a" target="_blank">CAREERS</a>
+               <a href="https://about.udemy.com/blog/" class="q-links"  target="_blank">BLOG</a>
+               <a href="https://about.udemy.com/company/" class="q-links" target="_blank">COMPANY</a>
+           </div>
+           <button id="hideLinks10" class="hideLinks-btn"><i class="far fa-times-circle"></i></button>
+       </div>
+   </div>
+
+  ```
 
 
 **BOOTSTRAP 4.5.3**   - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
