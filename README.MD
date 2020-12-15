@@ -18,9 +18,9 @@ Well, not anymore. *
 
 **As a new Irish resident, I want all NECESSARY AND IMPORTANT information for my New Irish Life in one place and available from any device connected to the internet, so I can organize my life in a fun and simple way.**
 
-**When preparing for a trip to Ireland I want to have quick access to the most popular recruitment websites and quick links pointing me to "job search", "expected salaries", "companies" and agency "reviews".**
+**When preparing for a trip to Ireland I want to have quick access to the most popular recruitment websites and quick links pointing me to _"JOB SEARCH"_, _"EXPECTED SALARIES"_, _"COMPANIES"_ and agency _"REVIEWS"_.**
 
-**Straight after arrival at Dublin Airport if I click on a [Trip](https://tsokac2.github.io/newIrishLife.2.0/trip.html) section I want to see Google Maps with some option for bus, train, or tram stations with visible markers in different colours for fastest navigation.**
+**Straight after arrival at Dublin Airport if I click on a _[Trip](https://tsokac2.github.io/newIrishLife.2.0/trip.html)_ section I want to see Google Maps with some option for bus, train, or tram stations with visible markers in different colours for fastest navigation.**
 
 **I want to stay up-to-date with all fresh information regarding work and lifestyle, subscribing with my email for newsletter services.**
 
