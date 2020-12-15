@@ -141,9 +141,9 @@ To get started with Google maps API implementation follow these instructions sho
 * SCRIPTS INTEGRATION:
   * In **trip.html** place `<scripts>` in following order:
     ```
-	   <script src="assets/js/markerclusterer_compiled.js"></script>
-     <script defer src="https://maps.googleapis.com/maps/api/js?key="YOUR API KEY"&callback=initMap"></script> -
-     <script src="assets/js/maps.js"></script>
+	  <script src="assets/js/markerclusterer_compiled.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key="YOUR API KEY"&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
 
     ```
   * Create `<div>` element with ID `<div id="map">` render map place
