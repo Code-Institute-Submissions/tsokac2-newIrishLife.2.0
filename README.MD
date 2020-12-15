@@ -153,6 +153,18 @@ Card element HTML structure:
    </div>
 
   ```
+Trip.html, Work.html and Life.html contains `<div class="blur"> just after opening `<body> tag for the background "fade-out" effect
+
+jQuery DOM Events used for above-mentioned cards element functionality:
+
+* Element with id **#showLinks1** was clicked
+* `  var thisCardLinkShow = "." + this.id + "-grid";` checking for `<div>` element with class `.showLinks1-grid`
+* `$(thisCardLinkShow).show(300)` referring to `this` element to `.show()` with speed of 300 milliseconds
+* `$(".blur").fadeIn(400)` loading background "blur" effect with speed of 400 milliseconds
+* `$(thisCardLinkShow).addClass("rel-card");` adding class `.addClass("rel-card")` to element that is referring to `this` element
+* `$("#Card1").addClass("wrap-rel");`  adding class `.addClass("rel-card")` to element with id **Card1**
+
+The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");`
 
 
 **BOOTSTRAP 4.5.3**   - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
