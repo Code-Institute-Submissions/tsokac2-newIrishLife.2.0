@@ -12,8 +12,9 @@ This website is a great starting point.
 **Story:**
 <h4 align="center">Four years ago, one Croatian landed in Dublin, Ireland.
 On the web, there was a lot of info about life in Ireland, but not essentials information in one place.
-Well, not anymore.
 </h4>
+<h3 align="center">Well, not anymore.</h3>
+
 
 #### User Story
 
