@@ -17,9 +17,7 @@ body {
   background-position: center center;
   background-attachment: fixed; }
 
-  .line-of-text-thats-already-underlined {
-    text-decoration-skip-ink: none;
-  }
+20
 .quote-borders {
   background-color: rgba(8, 95, 99, 0.6); }
 
