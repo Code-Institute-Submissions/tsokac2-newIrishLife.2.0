@@ -260,6 +260,8 @@ To get started with Google maps API implementation follow these instructions sho
 * `let busMarkerIcon = {...}` creating custom map marker with `scaledSize` property
 * `const Bus747Stop = new google.maps.Marker({...});` pointg to Bus Stop for 747 Dublin Bus line for Dublin Airport
 
+**FULL SOURCE CODE:** GOOGLE MAPS API [cards.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/maps.js)
+
 
 **EMAILJS**
 * IMPLEMENTATION
