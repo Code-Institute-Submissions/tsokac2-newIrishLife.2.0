@@ -505,4 +505,5 @@ STEPS:
 * Website images source - [PIXABAY](https://pixabay.com/photos)
 * Bootstrap Carousel Fade Effect - [Source](https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/)
 * Resizing Google Maps markers  - [Source](https://stackoverflow.com/questions/15096461/resize-google-maps-marker-icon-image)
+* Jasmine-jQuery: Set of jQuery helpers - [Source](https://bowercdn.net/c/jasmine-jquery-2.1.1/lib/jasmine-jquery.js)
 * Home page icons - [Flaticon](https://www.flaticon.com/)

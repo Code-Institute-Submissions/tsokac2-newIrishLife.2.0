@@ -20,6 +20,7 @@ Jasmine is a behavior-driven development framework for testing JavaScript code
   * `<script src="https://code.jquery.com/jquery-3.5.1.js"></script>`
   * `<script src="spec/jasmine-jquery.js"></script>` SOURCE: https://bowercdn.net/c/jasmine-jquery-2.1.1/lib/jasmine-jquery.js
   * ` <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.css"/>` **SOURCE:** https://code.jquery.com/
+  * `<script src="assets/spec/jasminejquery.js"></script>` external library **SOURCE:** https://bowercdn.net/c/jasmine-jquery-2.1.1/lib/jasmine-jquery.js  
 
 6. STEP: Import custom scripts for Jasmine testing under imported **CDN's** in the following order:
   * `<script src="js/cards.js"></script>`
