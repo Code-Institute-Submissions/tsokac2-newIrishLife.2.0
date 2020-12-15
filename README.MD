@@ -15,7 +15,6 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 </h4>
 <h3 align="center">Well, not anymore.</h3>
 
-
 #### User Story
 
 **As a new Irish resident, I want all NECESSARY AND IMPORTANT information for my New Irish Life in one place and available from any device connected to the internet, so I can organize my life in a fun and simple way.**
