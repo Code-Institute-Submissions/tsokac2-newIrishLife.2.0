@@ -15,7 +15,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  text-decoration-skip-ink: none;
+ }
 
 .quote-borders {
   background-color: rgba(8, 95, 99, 0.6); }
