@@ -17,7 +17,15 @@ Well, not anymore. *
 #### User Story
 
 **As a new Irish resident, I want all NECESSARY AND IMPORTANT information for my New Irish Life in one place and available from any device connected to the internet, so I can organize my life in a fun and simple way.**
-**With New Irish Life that is extremely possible!**
+
+**When preparing for a trip to Ireland I want to have quick access to the most popular recruitment websites and quick links pointing me to "job search", "expected salaries", "companies" and agency "reviews".**
+
+**Straight after arrival at Dublin Airport if I click on a (Trip - link) section I want to see Google Maps with some option for bus, train, or tram stations with visible markers in different colours for fastest navigation.**
+
+**I want to stay up-to-date with all fresh information regarding work and lifestyle, subscribing with my email for newsletter services.**
+
+
+**With New Irish Life that is possible!**
 
 * Definition by HOME section - inform the user of page usage and purpose.
 * Definition by TRIP section - pitch users on quick links for travel options, regarding trip planning, prices, destinations road travel in Ireland, and major possibilities.
@@ -140,7 +148,7 @@ To get started with Google maps API implementation follow these instructions sho
 
 * SCRIPTS INTEGRATION:
   * In **trip.html** place `<scripts>` in following order:
-  
+
     ```
     <script src="assets/js/markerclusterer_compiled.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key="YOUR API KEY"&callback=initMap"></script>
