@@ -160,7 +160,7 @@ Trip.html, Work.html and Life.html contains `<div class="blur"> just after openi
 jQuery DOM Events used for above-mentioned cards element functionality:
 
 * Element with id **#showLinks1** was clicked
-* `  var thisCardLinkShow = "." + this.id + "-grid";` checking for `<div>` element with class `.showLinks1-grid`
+* `var thisCardLinkShow = "." + this.id + "-grid";` checking for `<div>` element with class `.showLinks1-grid`
 * `$(thisCardLinkShow).show(300)` referring to `this` element to `.show()` with speed of 300 milliseconds
 * `$(".blur").fadeIn(400)` loading background "blur" effect with speed of 400 milliseconds
 * `$(thisCardLinkShow).addClass("rel-card");` adding class `.addClass("rel-card")` to element that is referring to `this` element
@@ -400,9 +400,19 @@ Development and testing overview in order as follow:
 
 **GITCMD**              -   https://git-scm.com/
 
-**CODE VALIDATION PLATFORMS** - W3C Mark-up Validation Service - https://validator.w3.org/
+**HTML VALIDATION PLATFORM** - W3C Mark-up Validation Service - https://validator.w3.org/
 
-**CODE VALIDATION PLATFORMS** - W3C CSS Validation Service - https://jigsaw.w3.org/css-validator/
+**CSS VALIDATION PLATFORMS** - W3C CSS Validation Service - https://jigsaw.w3.org/css-validator/
+
+**JavaScript VALIDATION TOOL** - https://jshint.com/install/
+* IMPLEMENTATION
+In Visual Studio Code IDE add jshint extension with the following steps:
+
+	* File - Preferences - Extensions
+	* In Search field enter - jshint - click on green "Install" button
+
+To install jshint with Node.js npm package read documentation at https://jshint.com/install/
+
 
 **CONTRAST CHECKER** - https://contrastchecker.com/
 
@@ -456,6 +466,15 @@ Error: Start tag seen without seeing a doctype first. Expected `<!DOCTYPE html>`
 
 SOLUTION: Add doctype before opening `<html>` DOM element
 
+**ISSUE #8**
+Error: 	.section-home .quote p 	Value Error : font-size only 0 can be a unit. You must put a unit after your number : 1.5
+
+SOLUTION: Add unit type after font-size property value `font-size: 1.5rem;`
+
+**ISSUE #9**
+Error: .section-home .intro-pitch .pitch-wrap .composition 	Value Error : margin-top  2rem is not a margin-top value :  2rem
+
+SOLUTION: Remove exstra space in `margin-top:  2rem;` to `margin-top: 2rem;`
 
 
 ### FireFox and Chrome Developer Tools Console
