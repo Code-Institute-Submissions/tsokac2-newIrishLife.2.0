@@ -60,4 +60,6 @@ describe("Testing DOM Elements - Triggering .on('click') Event in trip.html, wor
 
 Test was replicated for all 12 `<button>` elements with unique ID's attributes starting from `id="showLinks1"`and `id="hideLinks1"` element `<button>`
 
+**FULL SOURCE CODE:** JASMINE TESTING SCRIPT [cardsspec.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/spec/cardsspec.js)
+
 **Live Version of the Jasmine Test** - [Jasmine Test](https://tsokac2.github.io/newIrishLife.2.0/assets/indexjasmine.html)

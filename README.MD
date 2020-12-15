@@ -340,14 +340,14 @@ To get started with Google maps API implementation follow these instructions sho
   ```
   * Test email service against the random email address
 
-  **FULL SOURCE CODE:** EMAILJS API [emailnews.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js)
+**FULL SOURCE CODE:** EMAILJS API [emailnews.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js)
 
 **JASMINE BEHAVIOR-DRIVEN JavaScript**
 * Library provider: https://jasmine.github.io/
 
 **NODE.JS** -  Open-source, cross-platform, back-end, JavaScript runtime environment - href="https://nodejs.org/en/
 
-**NPM** - Package manager - Use package - npm i node-sass - https://www.npmjs.com/
+**NPM** - Package manager - Use package - `npm i node-sass` - https://www.npmjs.com/
 
 **GIT** - Project deployment
 
