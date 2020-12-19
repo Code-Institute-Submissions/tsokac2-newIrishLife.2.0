@@ -280,7 +280,6 @@ To get started with Google maps API implementation follow these instructions sho
     <script src="assets/js/markerclusterer_compiled.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key="YOUR API KEY"&callback=initMap"></script>
     <script src="assets/js/maps.js"></script>
-
     ```
   * Create `<div>` element with ID `<div id="map">` render map place
   * Marker Cluster CDN - [SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)
@@ -313,7 +312,6 @@ To get started with Google maps API implementation follow these instructions sho
           icon: busMarkerIcon
       });
     }
-
   ```
 * `function initMap() {..}` maps location on major scale in this case Dublin, Ireland
 * `google.maps.event.addDomListener(window, "resize", function() {...}` adding Google Maps DOM listener
@@ -341,7 +339,6 @@ To get started with Google maps API implementation follow these instructions sho
     Best
 
     {{from_name}}
-
   ```
 
   * Select the Auto-Reply option and place the following:
@@ -350,7 +347,6 @@ To get started with Google maps API implementation follow these instructions sho
     CONTENT:
 
 ```
-
     Hello `{{from_name}},`
 
     We are delighted to have you among us.
@@ -362,7 +358,6 @@ To get started with Google maps API implementation follow these instructions sho
     Best,
 
     Info NewIrishLife
-
 ```
 
 * SCRIPTS INTEGRATION:
@@ -375,7 +370,6 @@ To get started with Google maps API implementation follow these instructions sho
         emailjs.init("user_hI6S08d1aK1XKKU2VWtOI");
         })();
   </script>
-
   ```
   * Check `User ID` under "Integration" option on EmailJs dashboard
   * Create `submitEmail` function in `<script src="assets/js/emailnews.js">`
@@ -395,7 +389,6 @@ To get started with Google maps API implementation follow these instructions sho
               });
               return false;
       };
-
   ```
   * Test email service against the random email address
 
