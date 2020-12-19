@@ -22,7 +22,7 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 **When preparing for a trip to Ireland I want to have quick access to the most popular online travel brands and quick links pointing me to _"FLIGHTS""_, _"HOTELS"_, _" _"CAR HIRE"_ and brands _"REVIEWS"_.**
 
 
-**When preparing for a trip to Ireland I want to have quick access to the most popular recruitment websites and quick links pointing me to _"JOB SEARCH"_, _"EXPECTED SALARIES"_, _" _"COMPANIES"_ and agency _"REVIEWS"_.**
+**When preparing for a trip to Ireland I want to have quick access to the most popular recruitment websites and quick links pointing me to _"JOB SEARCH"_, _"EXPECTED SALARIES"_,  _"COMPANIES"_ and agency _"REVIEWS"_.**
 
 **Straight after arrival at Dublin Airport if I click on a _[Trip](https://tsokac2.github.io/newIrishLife.2.0/trip.html)_ section I want to see Google Maps with some option for bus, train, or tram stations with visible markers in different colours for fastest navigation.**
 
