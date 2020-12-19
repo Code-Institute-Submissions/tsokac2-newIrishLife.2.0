@@ -61,7 +61,7 @@ Google Maps API Implementation - **Trip.html**  - [View](https://github.com/tsok
 * MAIN SECTION AREA - Main section content following website features - HOME - TRIP - WORK - LIFE
 * FOOTER -  Footer Menu links - Newsletter Subtraction - Social Media links - Copyrights
 
-## FEATURES
+# FEATURES
 
 #### HOME
 Simple introduction of web page purpose and what value it is bringing to an end-user.
@@ -113,7 +113,7 @@ Expansion plan:
 * Connect to external API for creating user account regarding receiving news and updates - database configuration.
 * Offer add for recruitment agencies  - the connection between end-user and possible employer or recruitment agent.
 
-## TECHNOLOGIES USED
+# TECHNOLOGIES USED
 **HTML** - Semantic elements - nav, section, footer
 **CSS3**
 **SASS** - Pre-processor - tools included -
@@ -362,7 +362,7 @@ To get started with Google maps API implementation follow these instructions sho
 
 **BALSAMIQ** - Wireframes design tool
 
-## TESTING
+# TESTING
 
 Major testing web browsers included in project testing - Goggle Chrome - Mozilla Firefox  - Microsoft Edge
 When the website is successfully uploaded to GitHub and the website URL is generated, the testing process can start:
@@ -479,7 +479,7 @@ _Error_: `.section-home .intro-pitch .pitch-wrap .composition` Value Error : mar
 _SOLUTION_: Remove extra space in `margin-top:  2rem;` to `margin-top: 2rem;`
 
 
-### FireFox and Chrome Developer Tools Console
+## FireFox and Chrome Developer Tools Console
 
 **ISSUE #1**
 Error:  CSS background property - bad path property `background-image: url("../img/rent_fav.png");`
@@ -491,6 +491,10 @@ Error:  jQuery .show() and .hide() - not applicable on DOM elements
 SOLUTION: Implement jQuery Core 3.5.1 - uncompressed version - [jQuery](https://code.jquery.com/)
 
 **ISSUE #3**
+Error: Uncaught TypeError: Cannot read property 'querySelector' of null - selector does not return any elements at the stage when script is executed
+SOLUTION: Confirm that all DOM has a unique ID selector - if element in header section has same ID like element in footer section `document.getElementById("footer-element-id")` will have value of null
+
+**ISSUE #4**
 Error:
 > Google Maps API - "We have detected a publicly accessible Google API key associated with the following Google Cloud Platform project"
 SOLUTION:
@@ -504,7 +508,7 @@ SOLUTION:
 The security of your Google Cloud Platform account(s) is important to us.
 
 
-## DEPLOYMENT
+# DEPLOYMENT
 
 Project link -  [newIrishLife](https://tsokac2.github.io/newIrishLife.2.0/)
 
@@ -524,7 +528,7 @@ STEPS:
 * More information about Git version control - https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
 
 
-## CREDITS
+# CREDITS
 * Intro pitch - *"The Hobbit: An Unexpected Journey"* - Wiki - https://en.wikipedia.org/wiki/The_Hobbit_(film_series)
 * Website images source - [UNSPLASH](https://unsplash.com/s/photos/smartphone
 * Website images source - [PIXABAY](https://pixabay.com/photos)
