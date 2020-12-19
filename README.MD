@@ -136,12 +136,12 @@ Semantic elements - nav, section, footer
 
 _**COMPILER IMPLEMENTATION:**_
 
-    * Open Command Prompt
-    * Navigate to the root project folder
-    * Enter commands in the following order:
-      * `npm init --yes` - PRESS ENTER
-      * `npm i -g node-sass` - PRESS ENTER
-      * In `{} package.json` file under the `"scripts"` type the following:
+* Open Command Prompt
+* Navigate to the root project folder
+* Enter commands in the following order:
+  * `npm init --yes` - PRESS ENTER
+  * `npm i -g node-sass` - PRESS ENTER
+  * In `{} package.json` file under the `"scripts"` type the following:
 
       ```
        "scripts": {
