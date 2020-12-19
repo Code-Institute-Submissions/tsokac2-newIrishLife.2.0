@@ -13,17 +13,27 @@ This website is a great starting point.
 <h4 align="center">Four years ago, one Croatian landed in Dublin, Ireland.
 On the web, there was a lot of info about life in Ireland, but not essentials information in one place.
 </h4>
-<h3 align="center">Well, not anymore.</h3>
+<h3 align="center">Well, not anymore!</h3>
 
-#### User Story
+### User Story
 
 **As a new Irish resident, I want all NECESSARY AND IMPORTANT information for my New Irish Life in one place and available from any device connected to the internet, so I can organize my life in a fun and simple way.**
 
-**When preparing for a trip to Ireland I want to have quick access to the most popular recruitment websites and quick links pointing me to _"JOB SEARCH"_, _"EXPECTED SALARIES"_, _"COMPANIES"_ and agency _"REVIEWS"_.**
+**When preparing for a trip to Ireland I want to have quick access to the most popular online travel brands and quick links pointing me to _"FLIGHTS""_, _"HOTELS"_, _" _"CAR HIRE"_ and brands _"REVIEWS"_.**
+
+
+**When preparing for a trip to Ireland I want to have quick access to the most popular recruitment websites and quick links pointing me to _"JOB SEARCH"_, _"EXPECTED SALARIES"_, _" _"COMPANIES"_ and agency _"REVIEWS"_.**
 
 **Straight after arrival at Dublin Airport if I click on a _[Trip](https://tsokac2.github.io/newIrishLife.2.0/trip.html)_ section I want to see Google Maps with some option for bus, train, or tram stations with visible markers in different colours for fastest navigation.**
 
+
 **I want to stay up-to-date with all fresh information regarding work and lifestyle, subscribing with my email for newsletter services.**
+
+**I want to know if my email is valid when I'm submitting my request for newsletter services.**
+
+**When I'm submitting my name and email for newsletter services I want to receive a message that my request is submitted with the confirmation message.**
+
+
 
 
 **With New Irish Life that is possible!**
@@ -33,7 +43,7 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 * Definition by WORK section - user advice of most popular web "job-hunt" services in Ireland as well as education offers.
 * Definition by LIFE section - give and introduction of general "life" information in Ireland regarding accommodation, mobile networks, and grocery shopping.
 
-#### Design process
+### Design process
 * #1 Draft all main section of the web-page - HOME, TRIP, WORK, LIFE.
 * #2 Brief list all pop-ups/pages - SING IN and LOG IN sub-elements.
 * #3 List all colours pallets - usage - background colour, font colour, border.
