@@ -273,7 +273,7 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
 
 **GOOGLE MAPS API IMPLEMENTATION STEPS:**
 
-* **IMPLEMENTATION**
+**IMPLEMENTATION**
 
 To get started with Google maps API implementation follow these instructions short instructions:
 
@@ -332,13 +332,12 @@ To get started with Google maps API implementation follow these instructions sho
 
 **FULL SOURCE CODE:** GOOGLE MAPS API [maps.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/maps.js)
 
-
-**EMAILJS**
-* IMPLEMENTATION
-  * Log in to EmailJs dashboard - https://dashboard.emailjs.com/sign-in
-  * Add New Service - **Gmail**
-  * Email Templates - **Create New Template**
-  * Use following syntax for form attributes, syntax `{{form_name}}`
+### EMAILJS
+**IMPLEMENTATION**
+* Log in to EmailJs dashboard - https://dashboard.emailjs.com/sign-in
+* Add New Service - **Gmail**
+* Email Templates - **Create New Template**
+* Use following syntax for form attributes, syntax `{{form_name}}`
 
   ```
     Email content from sent from user:
