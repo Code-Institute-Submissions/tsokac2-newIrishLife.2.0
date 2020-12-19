@@ -193,7 +193,7 @@ Programming language
 ### **jQuery**
 **APPLIED jQuery DOM EVENTS IN PROJECT**
 
-**Trip.html**, **Work.html** and **Life.html** are containing Quick Links user cards elements. Every card element contains a Main link source to external services provider and a "Quick Links..." button element for loading detailed links when the user chose the services provider destination.  [Example Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
+**Trip.html**, **Work.html** and **Life.html** are containing Quick Links user cards elements. Every card element contains a _**MAIN LINK**_ source to external services provider and a **"Quick Links..."** button element for loading detailed links when the user chose the services provider destination. [Example](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
 Card element HTML structure:
   ```
@@ -222,7 +222,7 @@ Card element HTML structure:
   ```
 Trip.html, Work.html and Life.html contains `<div class="blur"> just after opening `<body> tag for the background "fade-out" effect
 
-jQuery DOM Events used for above-mentioned cards element functionality:
+**jQuery DOM Events** used for above-mentioned cards element functionality:
 
 * Element with id **#showLinks1** was clicked
 * `var thisCardLinkShow = "." + this.id + "-grid";` checking for `<div>` element with class `.showLinks1-grid`
@@ -254,22 +254,18 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
 
   ```
 **FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js)
- **FULL LIBRARY SOURCE:** - https://code.jquery.com/
 
+**FULL LIBRARY SOURCE:** - https://code.jquery.com/
 
-
-
-
-
-
-
-**BOOTSTRAP 4.5.3**   - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
+### BOOTSTRAP 4.5.3**
+* Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
 
 * Library provider: https://getbootstrap.com
 
 * LibraryURL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
 
-**GOOGLE CDN's and GOOGLE API**
+
+### GOOGLE CDN's and GOOGLE API
 
 * Google Fonts - Merienda `<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">`
 * Google Fonts - Lato `<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@400;700&display=swap" rel="stylesheet">`
@@ -277,7 +273,7 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
 
 **GOOGLE MAPS API IMPLEMENTATION STEPS:**
 
-* IMPLEMENTATION
+* **IMPLEMENTATION**
 
 To get started with Google maps API implementation follow these instructions short instructions:
 
