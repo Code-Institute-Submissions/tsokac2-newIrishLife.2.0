@@ -135,6 +135,7 @@ Semantic elements - nav, section, footer
 * SASS Compiler
 
 _**COMPILER IMPLEMENTATION:**_
+
     * Open Command Prompt
     * Navigate to the root project folder
     * Enter commands in the following order:
@@ -148,8 +149,10 @@ _**COMPILER IMPLEMENTATION:**_
         },
 
       ```
-      * To start SASS Compiler enter following command: `npm run watch` - PRESS ENTER
-      * If no errors the compile will start with following console log message:
+
+* To start SASS Compiler enter following command: `npm run watch` - PRESS ENTER
+* If no errors the compile will start with following console log message:
+
 
       ```
       > new@1.0.0 watch C:\Users\Tomislav\Desktop\new
