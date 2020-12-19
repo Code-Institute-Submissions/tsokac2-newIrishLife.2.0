@@ -530,15 +530,19 @@ _SOLUTION_: Remove extra space in `margin-top:  2rem;` to `margin-top: 2rem;`
 
 **ISSUE #1**
 Error:  CSS background property - bad path property `background-image: url("../img/rent_fav.png");`
+
 SOLUTION: `background-image: url("../img/rent_fav.png");` - no quotes
+
 SOLUTION SOURCE: [Stackoverflow](https://stackoverflow.com/questions/21374534/css-background-image-not-loading)
 
 **ISSUE #2**
 Error:  jQuery .show() and .hide() - not applicable on DOM elements
+
 SOLUTION: Implement jQuery Core 3.5.1 - uncompressed version - [jQuery](https://code.jquery.com/)
 
 **ISSUE #3**
 Error: Uncaught TypeError: Cannot read property 'querySelector' of null - selector does not return any elements at the stage when script is executed
+
 SOLUTION: Confirm that all DOM has a unique ID selector - if element in header section has same ID like element in footer section `document.getElementById("footer-element-id")` will have value of null
 
 **ISSUE #4**
@@ -556,11 +560,11 @@ The security of your Google Cloud Platform account(s) is important to us.
 
 # DEPLOYMENT
 
-Project link -  [newIrishLife](https://tsokac2.github.io/newIrishLife.2.0/)
+PROJECT LINK -  [newIrishLife](https://tsokac2.github.io/newIrishLife.2.0/)
 
 **GIT CMD**  -  https://git-scm.com/
 
-STEPS:
+_**STEPS:**_
 * Create a new repository on GitHub https://github.com
 * Download Git CMD app from https://git-scm.com/
 * Install and Git CMD app on your local devices
