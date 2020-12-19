@@ -122,22 +122,49 @@ Expansion plan:
 
 # TECHNOLOGIES USED
 ### **HTML**
-* Semantic elements - nav, section, footer
+Semantic elements - nav, section, footer
 
 ### **CSS3**
 
 ### SASS Pre-processor
 **TOOLS INCLUDED**
-  * SASS Compiler -  package.json - `"scripts" {"watch" : "node-sass -o public/css public/scss/index.scss -w" }`
-  * SASS interpolation
-  * SASS Mixings - Responsive layout functions
-  * SASS Variables
-  * SASS Nesting
+* SASS Compiler - package.json - `"scripts" {"watch" : "node-sass -o public/css public/scss/index.scss -w" }`
+* SASS interpolation
+* SASS Mixings - Responsive layout functions
+* SASS Variables
+* SASS Nesting
+**SASS IMPLEMENTATION**
+* Create the following folder structure:
+  * assets/scss/abstracts - global SASS **variables** and **mixins** function
+  * assets/scss/base - global styles for html, body and special helper classes
+  * assets/scss/base - component  - carousel image slideshow, small screen navigation menu
+  * assets/scss/layout - styling for home.html, trip.html, work.html and life.html
+  * assets/scss/_index.scss - referencing all `*.scss` files in folder structure, example:
 
+  ```
+  @import "abstracts/variables";
+  @import "abstracts/mixins";
+  @import "base/base";
 
-**JavaScript**        - Programming language
+  ```
+  * SASS RESPONSIVE Mixins function example:
+  ```
+  @mixin response($breakpoint) {
+    @if($breakpoint == md) {
+        @media(min-width: 768px) {
+            @content;
+        }
+    }
+  }
+  ```
 
-**jQuery** -  **APPLIED jQuery DOM EVENTS IN PROJECT**  - JavaScript library https://code.jquery.com/
+* All files in the above folders **MUST** be named with the following naming conventions: `_filename.scss`
+
+### **JavaScript**
+Programming language
+
+### **jQuery**
+**APPLIED jQuery DOM EVENTS IN PROJECT**
 
 **Trip.html**, **Work.html** and **Life.html** are containing Quick Links user cards elements. Every card element contains a Main link source to external services provider and a "Quick Links..." button element for loading detailed links when the user chose the services provider destination.  [Example Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
@@ -200,6 +227,13 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
 
   ```
 **FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js)
+ **FULL LIBRARY SOURCE:** - https://code.jquery.com/
+
+
+
+
+
+
 
 
 **BOOTSTRAP 4.5.3**   - Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
