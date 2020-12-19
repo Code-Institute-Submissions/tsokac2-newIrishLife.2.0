@@ -128,16 +128,40 @@ Semantic elements - nav, section, footer
 
 ### SASS Pre-processor
 **TOOLS INCLUDED**
-* SASS Compiler - package.json - `"scripts" {"watch" : "node-sass -o public/css public/scss/index.scss -w" }`
 * SASS interpolation
 * SASS Mixings - Responsive layout functions
 * SASS Variables
 * SASS Nesting
-**SASS IMPLEMENTATION**
+* SASS Compiler
+
+_**COMPILER IMPLEMENTATION:**_
+    * Open Command Prompt
+    * Navigate to the root project folder
+    * Enter commands in the following order:
+      * `npm init --yes` - PRESS ENTER
+      * `npm i -g node-sass` - PRESS ENTER
+      * In `{} package.json` file under the `"scripts"` type the following:
+
+      ```
+       "scripts": {
+          "watch" : "node-sass -o assets/css assets/scss/index.scss -w"
+        },
+
+      ```
+      * To start SASS Compiler enter following command: `npm run watch` - PRESS ENTER
+      * If no errors the compile will start with following console log message:
+
+      ```
+      > new@1.0.0 watch C:\Users\Tomislav\Desktop\new
+      > node-sass -o assets/css assets/scss/index.scss -w
+
+      ```
+
+_**SASS IMPLEMENTATION**_
 * Create the following folder structure:
   * assets/scss/abstracts - global SASS **variables** and **mixins** function
   * assets/scss/base - global styles for html, body and special helper classes
-  * assets/scss/base - component  - carousel image slideshow, small screen navigation menu
+  * assets/scss/components - carousel image slideshow, small screen navigation menu
   * assets/scss/layout - styling for home.html, trip.html, work.html and life.html
   * assets/scss/_index.scss - referencing all `*.scss` files in folder structure, example:
 
