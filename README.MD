@@ -284,35 +284,35 @@ To get started with Google maps API implementation follow these instructions sho
   * Create `<div>` element with ID `<div id="map">` render map place
   * Marker Cluster CDN - [SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)
   * Creating callback function in `<script src="assets/js/maps.js"></script>`:
-  ```
-      function initMap() {
-          const map = new google.maps.Map(document.getElementById("map"), {
-              zoom : 11,
-              center: {
-                  lat: 53.350140,
-                  lng: -6.266155
-              }
+    ```
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom : 11,
+                center: {
+                    lat: 53.350140,
+                    lng: -6.266155
+                }
+            });
+
+          google.maps.event.addDomListener(window, "resize", function() {
+            var center = map.getCenter();
+            google.maps.event.trigger(map, "resize");
+            map.setCenter(center);
           });
 
-        google.maps.event.addDomListener(window, "resize", function() {
-          var center = map.getCenter();
-          google.maps.event.trigger(map, "resize");
-          map.setCenter(center);
+            let busMarkerIcon = {
+                url:"assets/img/bus_marker.png",
+                scaledSize: new google.maps.Size(50, 50)
+            }
+
+      const Bus747Stop = new google.maps.Marker({
+          position: {lat: 53.42810, lng: -6.24407},
+          map: map,
+          title: "BUS 747 Stop",
+            icon: busMarkerIcon
         });
-
-          let busMarkerIcon = {
-              url:"assets/img/bus_marker.png",
-              scaledSize: new google.maps.Size(50, 50)
-          }
-
-    const Bus747Stop = new google.maps.Marker({
-        position: {lat: 53.42810, lng: -6.24407},
-        map: map,
-        title: "BUS 747 Stop",
-          icon: busMarkerIcon
-      });
-    }
-  ```
+      }
+    ```
 * `function initMap() {..}` maps location on major scale in this case Dublin, Ireland
 * `google.maps.event.addDomListener(window, "resize", function() {...}` adding Google Maps DOM listener
 * `let busMarkerIcon = {...}` creating custom map marker with `scaledSize` property
@@ -327,6 +327,7 @@ To get started with Google maps API implementation follow these instructions sho
 * Email Templates - **Create New Template**
 * Use following syntax for form attributes, syntax `{{form_name}}`
 
+  **CONTENT:**
   ```
     Email content from sent from user:
 
@@ -342,23 +343,22 @@ To get started with Google maps API implementation follow these instructions sho
   ```
 
   * Select the Auto-Reply option and place the following:
-    SUBJECT: On behalf of all of us from newIrishLife, welcome onboard!
+    **SUBJECT:** On behalf of all of us from newIrishLife, welcome onboard!
 
-    CONTENT:
+  **CONTENT:**
+  ```
+      Hello `{{from_name}},`
 
-```
-    Hello `{{from_name}},`
+      We are delighted to have you among us.
 
-    We are delighted to have you among us.
+      On behalf of all the members and the management, we would like to extend our warmest welcome and good wishes!
 
-    On behalf of all the members and the management, we would like to extend our warmest welcome and good wishes!
+      Stay tuned for **FRESH NEWS** about our services...
 
-    Stay tuned for **FRESH NEWS** about our services...
+      Best,
 
-    Best,
-
-    Info NewIrishLife
-```
+      Info NewIrishLife
+  ```
 
 * SCRIPTS INTEGRATION:
   * Before colosing **`<head>`** element place folowing **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
