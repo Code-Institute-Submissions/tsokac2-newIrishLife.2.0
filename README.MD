@@ -27,7 +27,7 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 **Straight after arrival at Dublin Airport if I click on a _[Trip](https://tsokac2.github.io/newIrishLife.2.0/trip.html)_ section I want to see Google Maps with some option for bus, train, or tram stations with visible markers in different colours for fastest navigation.**
 
 
-**I want to stay up-to-date with all fresh information regarding work and lifestyle, subscribing with my email for newsletter services.**
+**I want to stay up-to-date with all fresh information regarding work and lifestyle by subscribing with my email for newsletter services.**
 
 **I want to know if my email is valid when I'm submitting my request for newsletter services.**
 
@@ -139,8 +139,8 @@ _**COMPILER IMPLEMENTATION:**_
 * Open Command Prompt
 * Navigate to the root project folder
 * Enter commands in the following order:
-  * `npm init --yes` - PRESS ENTER
-  * `npm i -g node-sass` - PRESS ENTER
+  * `npm init --yes` - **PRESS ENTER**
+  * `npm i -g node-sass` - **PRESS ENTER**
   * In `{} package.json` file under the `"scripts"` type the following:
 
       ```
@@ -150,7 +150,7 @@ _**COMPILER IMPLEMENTATION:**_
 
       ```
 
-* To start SASS Compiler enter following command: `npm run watch` - PRESS ENTER
+* To start **SASS Compiler** enter following command: `npm run watch` - **PRESS ENTER**
 * If no errors the compile will start with following console log message:
 
 
@@ -174,7 +174,7 @@ _**SASS IMPLEMENTATION**_
   @import "base/base";
 
   ```
-  * SASS RESPONSIVE Mixins function example:
+  * **SASS RESPONSIVE Mixins** function example:
   ```
   @mixin response($breakpoint) {
     @if($breakpoint == md) {
@@ -195,7 +195,7 @@ Programming language
 
 **Trip.html**, **Work.html** and **Life.html** are containing Quick Links user cards elements. Every card element contains a _**MAIN LINK**_ source to external services provider and a **"Quick Links..."** button element for loading detailed links when the user chose the services provider destination. [Example](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
-Card element HTML structure:
+Card element **HTML** structure:
   ```
   <div id="Card10" class="wrap">
        <a class="card-link-fav udemy_fav" href="https://www.udemy.com" target="_blank"><strong>Udemy.com</strong></a>
@@ -271,10 +271,7 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
 * Google Fonts - Lato `<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@400;700&display=swap" rel="stylesheet">`
 * Google API Google Maps API - `<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDadfKOCQK6Iu6tBeOXDAvZp5071lP8Us0&callback=initMap"></script>`
 
-**GOOGLE MAPS API IMPLEMENTATION STEPS:**
-
-**IMPLEMENTATION**
-
+**IMPLEMENTATION STEPS:**
 To get started with Google maps API implementation follow these instructions short instructions:
 
   * Pick Google Maps product [More info](https://developers.google.com/maps/gmp-get-started#quickstart)
@@ -283,7 +280,7 @@ To get started with Google maps API implementation follow these instructions sho
   * Enable APIs associated with the products you picked.
   * Create an API key-  documentation source - [API Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
-* SCRIPTS INTEGRATION:
+* **SCRIPTS INTEGRATION:**
   * In **trip.html** place `<scripts>` in following order:
 
     ```
