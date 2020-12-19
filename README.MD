@@ -143,20 +143,19 @@ _**COMPILER IMPLEMENTATION:**_
   * `npm i -g node-sass` - **PRESS ENTER**
   * In `{} package.json` file under the `"scripts"` type the following:
 
-      ```
-       "scripts": {
-          "watch" : "node-sass -o assets/css assets/scss/index.scss -w"
-        },
-      ```
+    ```
+     "scripts": {
+        "watch" : "node-sass -o assets/css assets/scss/index.scss -w"
+      },
+    ```
 
 * To start **SASS Compiler** enter following command: `npm run watch` - **PRESS ENTER**
 * If no errors the compile will start with following console log message:
 
-
-      ```
-      > new@1.0.0 watch C:\Users\Tomislav\Desktop\new
-      > node-sass -o assets/css assets/scss/index.scss -w
-      ```
+    ```
+    > new@1.0.0 watch C:\Users\Tomislav\Desktop\new
+    > node-sass -o assets/css assets/scss/index.scss -w
+    ```
 
 _**SASS IMPLEMENTATION**_
 * Create the following folder structure:
