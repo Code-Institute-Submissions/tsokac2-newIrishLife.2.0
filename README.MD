@@ -7,7 +7,7 @@ This website is a great starting point.
 
 ![Website Main Mockup](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/wireframes/main.png)
 
-## UX
+# UX
 
 **Story:**
 <h4 align="center">Four years ago, one Croatian landed in Dublin, Ireland.
