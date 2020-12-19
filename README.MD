@@ -147,7 +147,6 @@ _**COMPILER IMPLEMENTATION:**_
        "scripts": {
           "watch" : "node-sass -o assets/css assets/scss/index.scss -w"
         },
-
       ```
 
 * To start **SASS Compiler** enter following command: `npm run watch` - **PRESS ENTER**
@@ -157,7 +156,6 @@ _**COMPILER IMPLEMENTATION:**_
       ```
       > new@1.0.0 watch C:\Users\Tomislav\Desktop\new
       > node-sass -o assets/css assets/scss/index.scss -w
-
       ```
 
 _**SASS IMPLEMENTATION**_
@@ -172,7 +170,6 @@ _**SASS IMPLEMENTATION**_
   @import "abstracts/variables";
   @import "abstracts/mixins";
   @import "base/base";
-
   ```
   * **SASS RESPONSIVE Mixins** function example:
   ```
@@ -218,7 +215,6 @@ Card element **HTML** structure:
            <button id="hideLinks10" class="hideLinks-btn"><i class="far fa-times-circle"></i></button>
        </div>
    </div>
-
   ```
 Trip.html, Work.html and Life.html contains `<div class="blur"> just after opening `<body> tag for the background "fade-out" effect
 
@@ -261,7 +257,6 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
 * Library provider: https://getbootstrap.com
 
 * LibraryURL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
-
 
 ### GOOGLE CDN's and GOOGLE API
 
