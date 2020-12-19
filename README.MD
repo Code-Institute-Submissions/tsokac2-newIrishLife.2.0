@@ -560,7 +560,7 @@ The security of your Google Cloud Platform account(s) is important to us.
 
 # DEPLOYMENT
 
-PROJECT LINK -  [newIrishLife](https://tsokac2.github.io/newIrishLife.2.0/)
+**PROJECT LINK** -  [newIrishLife](https://tsokac2.github.io/newIrishLife.2.0/)
 
 **GIT CMD**  -  https://git-scm.com/
 
