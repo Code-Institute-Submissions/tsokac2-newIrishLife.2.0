@@ -239,7 +239,6 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
         $(".blur").fadeOut(300);
         $("#Card1").removeClass("wrap-rel");
   });
-
   ```
 
   If user click anywhere on the screen "loaded" elements will "hide" and that is archived with following `.click()` DOM effect on `<div class="blur>`.
@@ -251,7 +250,6 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
          $("#Card1").removeClass("wrap-rel");
          $(".hideLinks1-grid").hide(400);
   });
-
   ```
 **FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js)
 
