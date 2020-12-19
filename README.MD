@@ -121,12 +121,12 @@ Expansion plan:
 * Offer add for recruitment agencies  - the connection between end-user and possible employer or recruitment agent.
 
 # TECHNOLOGIES USED
-###**HTML**
+### **HTML**
 * Semantic elements - nav, section, footer
 
-###**CSS3**
+### **CSS3**
 
-###SASS Pre-processor
+### SASS Pre-processor
 **TOOLS INCLUDED**
   * SASS Compiler -  package.json - `"scripts" {"watch" : "node-sass -o public/css public/scss/index.scss -w" }`
   * SASS interpolation
