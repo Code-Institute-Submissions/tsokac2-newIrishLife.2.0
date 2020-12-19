@@ -360,7 +360,7 @@ To get started with Google maps API implementation follow these instructions sho
       Info NewIrishLife
   ```
 
-* SCRIPTS INTEGRATION:
+**SCRIPTS INTEGRATION:**
   * Before colosing **`<head>`** element place folowing **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
   * Place following callback function after **CDN** link
 
@@ -394,29 +394,37 @@ To get started with Google maps API implementation follow these instructions sho
 
 **FULL SOURCE CODE:** EMAILJS API [emailnews.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js)
 
-**JASMINE BEHAVIOR-DRIVEN JavaScript**
+### JASMINE BEHAVIOR-DRIVEN JavaScript
 * Library provider: https://jasmine.github.io/
 
-**NODE.JS** -  Open-source, cross-platform, back-end, JavaScript runtime environment - href="https://nodejs.org/en/
+### NODE.JS**
+* Open-source, cross-platform, back-end, JavaScript runtime environment - href="https://nodejs.org/en/
 
-**NPM** - Package manager - Use package - `npm i node-sass` - https://www.npmjs.com/
+### NPM
+* Package manager - Use package - `npm i node-sass` - https://www.npmjs.com/
 
-**GIT** - Project deployment
+### GIT
+* Project deployment - https://git-scm.com/
 
-**GITHUB** - Hosting Platform - https://github.com/
+### GITHUB
+* Hosting Platform - https://github.com/
 
-**IDE** - Visual Studio Code - https://code.visualstudio.com/ and Atom - https://atom.io/
+### IDE
+* Visual Studio Code - https://code.visualstudio.com/ and Atom - https://atom.io/
 
-**ADOBE PHOTOSHOP** - Images preparation - Logo Design
+### ADOBE PHOTOSHOP
+* Images preparation - Logo Design - https://www.adobe.com/
 
-**ADOBE ILLUSTRATOR** - Logo Design
+### ADOBE ILLUSTRATOR
+* Logo Design - https://www.adobe.com/
 
-**BALSAMIQ** - Wireframes design tool
+### BALSAMIQ
+* Wireframes design tool - https://balsamiq.com/
 
 # TESTING
 
-Major testing web browsers included in project testing - Goggle Chrome - Mozilla Firefox  - Microsoft Edge
-When the website is successfully uploaded to GitHub and the website URL is generated, the testing process can start:
+Major testing web browsers included in project testing - **Goggle Chrome** - **Mozilla Firefox**  - **Microsoft Edge**
+When the website is successfully uploaded to **GitHub** and the website URL is generated, the testing process can start:
 
 * STEP 1.	  Copy website URL to -  **W3C Mark-up Validation Service**
 * STEP 2.	  Correct all code errors and warnings - a possible source of solutions on **stack overflow** -  https://stackoverflow.com/
@@ -429,7 +437,7 @@ When the website is successfully uploaded to GitHub and the website URL is gener
 * STEP 9.	  Check Colour contras for foreground and background colours by using **Contrast Checker** - https://contrastchecker.com/
 * STEP 10.  Check code organization for future updates
 
-### TESTING WITH JASMINE [VIEW](https://github.com/tsokac2/newIrishLife.2.0/blob/main/JASMINETESTING.MD)
+## TESTING WITH JASMINE [VIEW](https://github.com/tsokac2/newIrishLife.2.0/blob/main/JASMINETESTING.MD)
 
 Development and testing overview in order as follow:
 * xxs max - MAX width - 240px     - element padding - element margins - centre alignment - fluent font size
@@ -463,7 +471,6 @@ In Visual Studio Code IDE add jshint extension with the following steps:
   * To install jshint with Node.js npm package read documentation at https://jshint.com/install/
 
 **CONTRAST CHECKER** - https://contrastchecker.com/
-
 
 ### W3 Validator Error's and Solutions VALIDATOR ERROR's and SOLUTIONS
 
@@ -557,7 +564,6 @@ SOLUTION:
 	- Take immediate steps to ensure that your API key(s) are not embedded in public source code systems, stored in download directories, or unintentionally shared in other ways.
 	- Add API key restrictions to your API key, if applicable.
 The security of your Google Cloud Platform account(s) is important to us.
-
 
 # DEPLOYMENT
 
