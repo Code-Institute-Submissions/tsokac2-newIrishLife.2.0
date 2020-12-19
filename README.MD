@@ -33,22 +33,19 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 
 **When I'm submitting my name and email for newsletter services I want to receive a message that my request is submitted with the confirmation message.**
 
-
-
-
 **With New Irish Life that is possible!**
 
-* Definition by HOME section - inform the user of page usage and purpose.
-* Definition by TRIP section - pitch users on quick links for travel options, regarding trip planning, prices, destinations road travel in Ireland, and major possibilities.
-* Definition by WORK section - user advice of most popular web "job-hunt" services in Ireland as well as education offers.
-* Definition by LIFE section - give and introduction of general "life" information in Ireland regarding accommodation, mobile networks, and grocery shopping.
+* Definition by **HOME** section - inform the user of page usage and purpose.
+* Definition by **TRIP** section - pitch users on quick links for travel options, regarding trip planning, prices, destinations road travel in Ireland, and major possibilities.
+* Definition by **WORK** section - user advice of most popular web "job-hunt" services in Ireland as well as education offers.
+* Definition by **LIFE** section - give and introduction of general "life" information in Ireland regarding accommodation, mobile networks, and grocery shopping.
 
 ### Design process
 * #1 Draft all main section of the web-page - HOME, TRIP, WORK, LIFE.
 * #2 Brief list all pop-ups/pages - SING IN and LOG IN sub-elements.
 * #3 List all colours pallets - usage - background colour, font colour, border.
 * #4 List all font styles for best UX.
-* #5 Draft web-page layout using Adobe Photoshop for the main layout and Adobe Illustrator for layout components such us Logo, borders, navigation elements.
+* #5 Draft web-page layout using Adobe Photoshop and Balsamiq for the main layout and Adobe Illustrator for layout components such us Logo, borders, navigation elements.
 * #6 List possible Fowtawesome Icon for best UX in picture experiences.
 * #7 List Semantic Mark-up to structure HTML code.
 * #8 List CSS folder structure for SASS Pre-processor configuration.
@@ -66,14 +63,14 @@ Main Layout for Larger and Small screens        - [View](https://github.com/tsok
 Google Maps API Implementation - **Trip.html**  - [View](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/w_01.png)
 
 
-#### Main Layout
+### Main Layout
 * MENU - Right navigation -- Logo -- Right menu option - Search bar - Sing in  - Log in
 * MAIN SECTION AREA - Main section content following website features - HOME - TRIP - WORK - LIFE
 * FOOTER -  Footer Menu links - Newsletter Subtraction - Social Media links - Copyrights
 
 # FEATURES
 
-#### HOME
+## HOME
 Simple introduction of web page purpose and what value it is bringing to an end-user.
 Formatted in three main sub-sections:
 * Movie reference pitch
@@ -81,7 +78,7 @@ Formatted in three main sub-sections:
 * Quick box-model overview of the web page main section
 * **Newsletter** user email subscribe services are placed in the footer section for **Home.html**, **Trip.html**, **Work.html**, and **Life.html**  - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email.png)
 
-#### TRIP
+## TRIP
 Section introduction with intro reference and "call-action" headings
 
 Formatted in two main sub-sections:
@@ -90,7 +87,7 @@ Formatted in two main sub-sections:
 * **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks.png)
 * **Google Maps** with a tracker for public transportation _"hot"_ spots in Dublin, Ireland with 3 markers in different colours for **Dublin Bus**, **Dart Train**, and **Luas** services - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/googlemap.png)
 
-#### WORK
+## WORK
 Introduction and quick links of the most popular Irish online recruitment sites with an additional section for online education possibilities
 
 Formatted in two main sub-sections:
@@ -98,7 +95,7 @@ Formatted in two main sub-sections:
 * **_BACK TO SCHOOL_** - Most popular online courses and full time education institutions.
 * **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_work.png)
 
-#### LIFE
+## LIFE
 Section with life essentials factors after moving to Ireland
 
 Formatted in three main sub-sections:
@@ -107,7 +104,7 @@ Formatted in three main sub-sections:
 * **_GROCERY SHOPS_** Irish Top food chains for grocery shopping.
 * **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
-#### CROS-PROJECT FEATURES
+## CROS-PROJECT FEATURES
 The Main Menu is placed on to header and footer portion of the webpage.
 
 The menu bar is designed for large and small devices for an easier user experience.
