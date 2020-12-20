@@ -34,17 +34,23 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 **With New Irish Life that is possible!**
 
 ### Testing User Stories from User Experience (UX)
-* As a First Time Visitor to the **HOME** section, I want to easily understand the main purpose of the site and my benefit of the [New Irish Life](https://tsokac2.github.io/newIrishLife.2.0/)
-Upon entering the site user can see a clear navigation bar and company logo
+* Definition by **HOME** section -  As a First Time Visitor, I want to easily understand the main purpose of the site and my benefit of the [New Irish Life](https://tsokac2.github.io/newIrishLife.2.0/)
+  * Upon entering the site user can see a clear navigation bar and company logo
   * The main purpose is represented with a short introduction paragraph and hero image gallery
   * Website content is pointed with four visual design cards for each section of the site
   * Footer is well structured and offers links for the main site section and full operating Newsletter form the service
   * User can share  [New Irish Life](https://tsokac2.github.io/newIrishLife.2.0/) on four social media links presented in the bottom part of the footer
   * The main navigation menu and footer are replicated through all main sections of the site
 
+* Definition by **TRIP** section - As a First Time Visitor, I want to easily understand section purpose with a short and fun intro paragraph and slide-show intro gallery
+  * User can choose the most popular online travel brands to organize in cards elements
+  * Each card element contains the main link, the brand website screenshot, "Quick links..." option, and a brand description
+  * User can have access to the best Irish public transportation services
+  * Users can navigate through embedded Google Map with colorful markers representing the most important bus stations, train stations, and tram stations in  Dublin, Ireland
 
-* Definition by **HOME** section - inform the user of page usage and purpose.
-* Definition by **TRIP** section - pitch users on quick links for travel options, regarding trip planning, prices, destinations road travel in Ireland, and major possibilities.
+
+
+
 * Definition by **WORK** section - user advice of most popular web "job-hunt" services in Ireland as well as education offers.
 * Definition by **LIFE** section - give and introduction of general "life" information in Ireland regarding accommodation, mobile networks, and grocery shopping.
 
