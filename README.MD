@@ -46,7 +46,7 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
   * User can choose the most popular online travel brands to organize in cards elements
   * Each card element contains the main link, the brand website screenshot, "Quick links..." option, and a brand description
   * User can have access to the best Irish public transportation services
-  * Users can navigate through embedded Google Map with colorful markers representing the most important bus stations, train stations, and tram stations in  Dublin, Ireland
+  * Users can navigate through embedded Google Map with colourful markers representing the most important bus stations, train stations, and tram stations in  Dublin, Ireland
 
 
 
