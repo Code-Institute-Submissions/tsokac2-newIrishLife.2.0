@@ -34,7 +34,13 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 **With New Irish Life that is possible!**
 
 ### Testing User Stories from User Experience (UX)
-
+* As a First Time Visitor to the **HOME** section, I want to easily understand the main purpose of the site and my benefit of the [New Irish Life](https://tsokac2.github.io/newIrishLife.2.0/)
+Upon entering the site user can see a clear navigation bar and company logo
+  * The main purpose is represented with a short introduction paragraph and hero image gallery
+  * Website content is pointed with four visual design cards for each section of the site
+  * Footer is well structured and offers links for the main site section and full operating Newsletter form the service
+  * User can share  [New Irish Life](https://tsokac2.github.io/newIrishLife.2.0/) on four social media links presented in the bottom part of the footer
+  * The main navigation menu and footer are replicated through all main sections of the site
 
 
 * Definition by **HOME** section - inform the user of page usage and purpose.
