@@ -438,14 +438,33 @@ To get started with Google maps API implementation follow these instructions sho
 * Regular Expression Pattern : `/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/`
 * `testEmail()` function:
 
-```
-  function testEmail(email) {
-      return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-  };
-```
+  ```
+    function testEmail(email) {
+        return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+    };
+  ```
 
 * To submit user data to the server we are declaring `send()` function in variable `var send = function(){...};` and calling that function when submit `<button>` is triggered:
 
+  ```
+    var send = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        var checkName = validateName();
+        var checkEmail = validateEmail();
+
+        if(checkName === true && checkEmail === true) {
+            sendEmail();
+            reset();
+            TnxForSupport("WOOHOO! Thank you for your support! You will receive a confirmation email soon. ");
+
+        } else {
+            validateName();
+            validateEmail();
+        }
+    };
+  ```
 
 * Test email service against the random email address
 
