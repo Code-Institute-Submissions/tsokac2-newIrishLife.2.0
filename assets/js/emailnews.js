@@ -84,7 +84,6 @@ function TnxForSupport(tnxMessage) {
     tnx.innerText = tnxMessage;
 }
 
-/*Send Email Function - CODE SOURCE: https://www.emailjs.com/docs/sdk/installation/*/
 function sendEmail(inputs) {
     var tempInputs = {
         "from_name": document.getElementById("newsName").value,

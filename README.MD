@@ -21,11 +21,9 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 
 **When preparing for a trip to Ireland I want to have quick access to the most popular online travel brands and quick links pointing me to _"FLIGHTS""_, _"HOTELS"_, _" _"CAR HIRE"_ and brands _"REVIEWS"_.**
 
-
 **When preparing for a trip to Ireland I want to have quick access to the most popular recruitment websites and quick links pointing me to _"JOB SEARCH"_, _"EXPECTED SALARIES"_,  _"COMPANIES"_ and agency _"REVIEWS"_.**
 
 **Straight after arrival at Dublin Airport if I click on a _[Trip](https://tsokac2.github.io/newIrishLife.2.0/trip.html)_ section I want to see Google Maps with some option for bus, train, or tram stations with visible markers in different colours for fastest navigation.**
-
 
 **I want to stay up-to-date with all fresh information regarding work and lifestyle by subscribing with my email for newsletter services.**
 
@@ -34,6 +32,10 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 **When I'm submitting my name and email for newsletter services I want to receive a message that my request is submitted with the confirmation message.**
 
 **With New Irish Life that is possible!**
+
+### Testing User Stories from User Experience (UX)
+
+
 
 * Definition by **HOME** section - inform the user of page usage and purpose.
 * Definition by **TRIP** section - pitch users on quick links for travel options, regarding trip planning, prices, destinations road travel in Ireland, and major possibilities.
@@ -255,7 +257,7 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
 
 * Library provider: https://getbootstrap.com
 
-* LibraryURL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
+* Library URL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
 
 ### GOOGLE CDN's and GOOGLE API
 
@@ -282,7 +284,7 @@ To get started with Google maps API implementation follow these instructions sho
     ```
   * Create `<div>` element with ID `<div id="map">` render map place
   * Marker Cluster CDN - [SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)
-  * Creating callback function in `<script src="assets/js/maps.js"></script>`:
+  * Creating call-back function in `<script src="assets/js/maps.js"></script>`:
     ```
         function initMap() {
             const map = new google.maps.Map(document.getElementById("map"), {
@@ -360,8 +362,8 @@ To get started with Google maps API implementation follow these instructions sho
   ```
 
 **SCRIPTS INTEGRATION:**
-  * Before colosing **`<head>`** element place folowing **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
-  * Place following callback function after **CDN** link
+  * Before closing **`<head>`** element place following **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
+  * Place following call-back function after **CDN** link
 
   ```
   <script type="text/javascript">
@@ -400,7 +402,7 @@ To get started with Google maps API implementation follow these instructions sho
   };
   ```
 *  Create 2 validation function for UX purposes, `validateName()` and `validateEmail()` function.
-* `validateName()` function is _**returning**_ boolean value `true` or `false`that is stored in empty variable `var valid;` if depanig of a user input for name of the user:
+* `validateName()` function is _**returning**_ Boolean value `true` or `false` that is stored in empty variable `var valid;` depending of a user input string value:
 
   ```
   var validateName = function(e) {
@@ -433,7 +435,7 @@ To get started with Google maps API implementation follow these instructions sho
     }
   ```
 
-* User email validation is stored in the `validateEmail()` function with a callback function that is checking user email - [SOURCE](https://www.w3resource.com/javascript/form/email-validation.php)
+* User email validation is stored in the `validateEmail()` function with a call-back function that is checking user email - [SOURCE](https://www.w3resource.com/javascript/form/email-validation.php)
 * To get a valid email id we use a regular expression
 * Regular Expression Pattern : `/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/`
 * `testEmail()` function:
@@ -544,7 +546,7 @@ In Visual Studio Code IDE add jshint extension with the following steps:
 
 	* File - Preferences - Extensions
 	* In Search field enter - jshint - click on green "Install" button
-  * To install jshint with Node.js npm package read documentation at https://jshint.com/install/
+  * To install **jshint** with Node.js **npm** package read documentation at https://jshint.com/install/
 
 **CONTRAST CHECKER** - https://contrastchecker.com/
 
@@ -563,7 +565,7 @@ _Error_: Bad value `public\img\Logo.png` for attribute src on element img: Backs
 _SOLUTION_: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>` - change "\" to "/"
 
 **ISSUE #3**
-_Error_: The aria-labelledby attribute must point to an element in the same document.
+_Error_: The `aria-labelledby` attribute must point to an element in the same document.
 
 `<div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">`
 
