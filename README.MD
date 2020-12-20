@@ -402,9 +402,52 @@ To get started with Google maps API implementation follow these instructions sho
 *  Create 2 validation function for UX purposes, `validateName()` and `validateEmail()` function.
 * `validateName()` function is _**returning**_ boolean value `true` or `false`that is stored in empty variable `var valid;` if depanig of a user input for name of the user:
 
+  ```
+  var validateName = function(e) {
+      var valid;
+      var name = document.getElementById("newsName");
+      var nameValue = name.value.trim();
+
+      if(nameValue === ""){
+          pushErrorFor(name, "Enter Your name!");
+          valid = false;
+      } else if (nameValue.length < 2){
+          pushErrorFor(name, "Enter Your full name!");
+          valid = false;
+      } else {
+          pushSuccessFor(name);
+          valid = true;
+      }
+
+      return valid;
+  };
+  ```
+
+* Implement call-back functions regarding what kind of input value was submitted by a user.
+* `pushSuccessFor()` function is adding a `.success` class to the input element when user input is valid:
+
+  ```
+    function pushSuccessFor(input) {
+      var formControl = input.parentElement;
+      formControl.className = "form-group success";
+    }
+  ```
+
+* User email validation is stored in the `validateEmail()` function with a callback function that is checking user email - [SOURCE](https://www.w3resource.com/javascript/form/email-validation.php)
+* To get a valid email id we use a regular expression
+* Regular Expression Pattern : `/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/`
+* `testEmail()` function:
+
+```
+  function testEmail(email) {
+      return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+  };
+```
+
+* To submit user data to the server we are declaring `send()` function in variable `var send = function(){...};` and calling that function when submit `<button>` is triggered:
 
 
-  * Test email service against the random email address
+* Test email service against the random email address
 
 **FULL SOURCE CODE:** EMAILJS API [emailnews.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js)
 
