@@ -374,21 +374,36 @@ To get started with Google maps API implementation follow these instructions sho
   * Create `submitEmail` function in `<script src="assets/js/emailnews.js">`
 
   ```
-      function submitEmail(inputForm) {
-          emailjs.send("service_yf3pn0p", "newIrishLife", {
-              "from_name": inputForm.name.value,
-              "from_email": inputForm.email.value
-          })
-          .then(
-              function (response) {
+  function sendEmail(inputs) {
+      var tempInputs = {
+          "from_name": document.getElementById("newsName").value,
+          "from_email": document.getElementById("newsEmail").value
+      };
+
+      emailjs.send("service_yf3pn0p", "newIrishLife", tempInputs)
+          .then(function (response) {
                   console.log("SUCCESS", response);
               },
               function (error) {
                   console.log("FAILED", error);
               });
               return false;
-      };
+     }
   ```
+**FROM VALIDATION DEVELOPMENT**
+
+* Create [EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)  method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target, in this case `newsletter()` function:
+
+  ```
+  var newsletter = function(){
+    document.getElementById("newsSent").addEventListener("click", send);
+  };
+  ```
+*  Create 2 validation function for UX purposes, `validateName()` and `validateEmail()` function.
+* `validateName()` function is _**returning**_ boolean value `true` or `false`that is stored in empty variable `var valid;` if depanig of a user input for name of the user:
+
+
+
   * Test email service against the random email address
 
 **FULL SOURCE CODE:** EMAILJS API [emailnews.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js)
