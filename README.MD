@@ -487,7 +487,7 @@ To get started with Google maps API implementation follow these instructions sho
 * **CASE 2** - A user enters in _Name_ input tag less than 2 characters: [VALIDATION CASE 2](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/case_2.png)
 * **CASE 3** - A user enters full _Name_ and click's _SUBMIT_ button: [VALIDATION CASE 3](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/case_3.png)
 * **CASE 4** - A user enters email with _string@string_: [VALIDATION CASE 4](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/case_4.png)
-* **CASE 5** - A user enters email with _string@string_: [VALIDATION CASE 4](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/case_5.png)
+* **CASE 5** - A user enters all inputs correctly: [VALIDATION CASE 5](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/case_5.png)
 
 * Test email service against the random email address
 
