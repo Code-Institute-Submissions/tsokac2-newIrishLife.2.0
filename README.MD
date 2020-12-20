@@ -48,11 +48,15 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
   * User can have access to the best Irish public transportation services
   * Users can navigate through embedded Google Map with colourful markers representing the most important bus stations, train stations, and tram stations in  Dublin, Ireland
 
+* Definition by **WORK** section - As a First Time Visitor, I want to easily understand how to start a job search process with the best possible preparation for the Irish work market
+  * Users can quickly understand where to start the job search process
+  * User can understand what kind of [CV](https://tsokac2.github.io/newIrishLife.2.0/assets/downloads/Tomislav_Sokac_CV.pdf) template is necessary for a successful job search mission
+  * User can find the best option for online education with the best offers  
 
-
-
-* Definition by **WORK** section - user advice of most popular web "job-hunt" services in Ireland as well as education offers.
-* Definition by **LIFE** section - give and introduction of general "life" information in Ireland regarding accommodation, mobile networks, and grocery shopping.
+* Definition by **LIFE** section - As a First Time Visitor, I want to easily find the best online rental marketplaces, the most popular mobile networks provider, and large-chain grocery shops
+  * User can choose one of the four most popular Irish online rental portals with quick links for share accommodation or buy options
+  * Users can quickly decide for best mobile network providers regarding broadband speed, bill pay offers, Tv broadband offers
+  * Users can check the four largest grocery shop chains with previous user reviews, best deals, jobs offerings
 
 ### Design process
 * #1 Draft all main section of the web-page - HOME, TRIP, WORK, LIFE.
