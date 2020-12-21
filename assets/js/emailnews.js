@@ -81,6 +81,7 @@ var reset = function (e){
 
 function TnxForSupport(tnxMessage) {
     var tnx = document.getElementById("tnx");
+    tnx.style.visibility = "visible";
     tnx.innerText = tnxMessage;
 }
 

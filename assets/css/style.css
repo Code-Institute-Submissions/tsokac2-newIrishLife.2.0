@@ -842,7 +842,8 @@ body {
       color: #03666b;
       font-size: 1.2rem;
       margin-top: 1rem;
-      font-weight: bold; }
+      font-weight: bold;
+      visibility: hidden;}
       @media (min-width: 360px) {
         .news .form-group .sub-success {
           font-size: 1.5rem; } }
