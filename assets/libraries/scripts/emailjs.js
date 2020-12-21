@@ -1,5 +1,5 @@
+var username = config.EMAILJS;
 (function() {
-  var username = config.MY_KEY_EMAILJS_USER;
 emailjs.init(username);
 })();
 
