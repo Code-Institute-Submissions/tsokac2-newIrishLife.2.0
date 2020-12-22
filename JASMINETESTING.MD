@@ -106,10 +106,55 @@ Test was replicated for all 12 `<button>` elements with unique ID's attributes s
 
 #### Testing code source **`<script src="testing/scripts/emailnews.js"></script>`**
 
+```
+describe("Testing Callback functions for Validation process against Input Elements Values", function(){
 
+      describe("Validate Name", function(){
+        it("validateName() function should exist", function(){
+            expect(validateName).toBeDefined();
+        });
 
+        it("validateName should return TRUE", function(){
+            var testPass = validateName("Tom");
+            expect(testPass).toBe(true);
+        });
 
+        it("validateName should return FALSE", function(){
+            var testFaild = validateName("T");
+            expect(testFaild).toBe(false);
+        });
 
-**FULL SOURCE CODE:** JASMINE TESTING SCRIPT [cardsSpec.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/testing/spec/emailnewsSpec.js)
+      });
+  });
+```
+
+#### Test STEPS
+* Testing if `validateName()` function exist
+
+  ```
+  describe("Validate Name", function(){
+    it("validateName() function should exist", function(){
+        expect(validateName).toBeDefined();
+    });
+  ```
+* Testing if `validateName()` function return **TRUE** if input `value.length` is > that 2
+
+  ```
+  it("validateName should return TRUE", function(){
+      var testPass = validateName("Tom");
+      expect(testPass).toBe(true);
+  });
+  ```
+
+* Testing if `validateName()` function return **FALSE** if input `value.length` is < that 2
+
+  ```
+  it("validateName should return FALSE", function(){
+      var testFaild = validateName("T");
+      expect(testFaild).toBe(false);
+  });
+  ```
+
+**FULL SOURCE CODE:** JASMINE TESTING SCRIPT [emailnewsSpec.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/testing/spec/emailnewsSpec.js)
 
 **Live Version of the Jasmine Test** - [Jasmine Test](https://tsokac2.github.io/newIrishLife.2.0/testing/emailnewstest.html)
