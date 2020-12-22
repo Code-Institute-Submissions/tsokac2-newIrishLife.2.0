@@ -1,11 +1,11 @@
 ## JASMINE - https://jasmine.github.io/
 
-Jasmine is a behavior-driven development framework for testing JavaScript code
+Jasmine is a behaviour-driven development framework for testing JavaScript code
 
 ## Testing DOM Events Using jQuery and Jasmine 2.0
 
 ### IMPLEMENTATION
-1. STEP: Create **sepc** folder in project root **assets folder - **assets/spec**
+1. STEP: Create **spec** folder in project root **assets folder - **assets/spec**
 
 2. STEP: Create **cardspec.js** file in to **assets/spec** folder
 
@@ -61,6 +61,6 @@ describe("Testing DOM Elements - Triggering .on('click') Event in trip.html, wor
 
 Test was replicated for all 12 `<button>` elements with unique ID's attributes starting from `id="showLinks1"`and `id="hideLinks1"` element `<button>`
 
-**FULL SOURCE CODE:** JASMINE TESTING SCRIPT [cardsspec.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/spec/cardsspec.js)
+**FULL SOURCE CODE:** JASMINE TESTING SCRIPT [cardsspec.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/testing/spec/cardsSpec.js)
 
-**Live Version of the Jasmine Test** - [Jasmine Test](https://tsokac2.github.io/newIrishLife.2.0/indexjasmine.html)
+**Live Version of the Jasmine Test** - [Jasmine Test](https://tsokac2.github.io/newIrishLife.2.0/testing/cardstest.html)
