@@ -27,7 +27,23 @@ Jasmine is a behaviour-driven development framework for testing JavaScript code
 
 ### Testing that **DOM** Event was triggered
 
-#### Code example from **`<script src="testing/spec/cardsSpec.js"></script>`**
+#### Testing code source **`<script src="testing/scripts/cards.js"></script>`**
+
+* Card element in trip.html on line 260 with following structure
+```
+  <div id="Card1" class="wrap">
+
+    Card content...
+
+    <div class="showLinks1-grid hideLinks1-grid text-center">
+
+      Quick links content...
+
+    </div>
+  </div>
+```
+
+* jQuery DOM Events for `#showLinks1`
 
 ```
 describe("Testing DOM Elements - Triggering .on('click') Event in trip.html, work.html and life.html", function(){
@@ -69,7 +85,7 @@ Test was replicated for all 12 `<button>` elements with unique ID's attributes s
 ### IMPLEMENTATION
 1. STEP: Create **testing** folder in project root folder - **../testing**
 
-2. STEP: Create **cardsSpec.js** file in to **../testing/spec** folder
+2. STEP: Create **emailnewsSpec.js** file in to **../testing/spec** folder
 
 3. STEP: Create **emailnewstest.html** file in **testing** folder
 
@@ -86,4 +102,14 @@ Test was replicated for all 12 `<button>` elements with unique ID's attributes s
   * `<script src="../testing/scripts/emailnews.js"></script>`
   * `<script src="../testing/spec/emailnewsSpec.js"></script>`
 
-### Testing that **DOM** Event was triggered
+### Testing `return` values of call-back validation functions
+
+#### Testing code source **`<script src="testing/scripts/emailnews.js"></script>`**
+
+
+
+
+
+**FULL SOURCE CODE:** JASMINE TESTING SCRIPT [cardsSpec.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/testing/spec/emailnewsSpec.js)
+
+**Live Version of the Jasmine Test** - [Jasmine Test](https://tsokac2.github.io/newIrishLife.2.0/testing/emailnewstest.html)
