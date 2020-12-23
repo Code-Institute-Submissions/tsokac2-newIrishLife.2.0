@@ -59,11 +59,11 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
   * Users can check the four largest grocery shop chains with previous user reviews, best deals, jobs offerings
 
 ### Design process
-* #1 Draft all main section of the web-page - HOME, TRIP, WORK, LIFE.
+* #1 Draft all main sections of the web-page - HOME, TRIP, WORK, LIFE.
 * #2 Brief list all pop-ups/pages - SING IN and LOG IN sub-elements.
 * #3 List all colours pallets - usage - background colour, font colour, border.
 * #4 List all font styles for best UX.
-* #5 Draft web-page layout using Adobe Photoshop and Balsamiq for the main layout and Adobe Illustrator for layout components such us Logo, borders, navigation elements.
+* #5 Draft web-page layout using Adobe Photoshop and Balsamiq for the main layout and Adobe Illustrator for layout components such as Logo, borders, navigation elements.
 * #6 List possible Fowtawesome Icon for best UX in picture experiences.
 * #7 List Semantic Mark-up to structure HTML code.
 * #8 List CSS folder structure for SASS Pre-processor configuration.
@@ -109,8 +109,8 @@ Formatted in two main sub-sections:
 Introduction and quick links of the most popular Irish online recruitment sites with an additional section for online education possibilities
 
 Formatted in two main sub-sections:
-* **_START HERE_** - Most popular job search services for Irish job market.
-* **_BACK TO SCHOOL_** - Most popular online courses and full time education institutions.
+* **_START HERE_** - Most popular job search services for the Irish job market.
+* **_BACK TO SCHOOL_** - Most popular online courses and full-time education institutions.
 * **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_work.png)
 
 ## LIFE
@@ -207,7 +207,7 @@ Programming language
 ### **jQuery**
 **APPLIED jQuery DOM EVENTS IN PROJECT**
 
-**Trip.html**, **Work.html** and **Life.html** are containing Quick Links user cards elements. Every card element contains a _**MAIN LINK**_ source to external services provider and a **"Quick Links..."** button element for loading detailed links when the user chose the services provider destination. [Example](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
+**Trip.html**, **Work.html** and **Life.html** are containing Quick Links user card elements. Every card element contains a _**MAIN LINK**_ source to external services provider and a **"Quick Links..."** button element for loading detailed links when the user chose the services provider destination. [Example](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
 Card element **HTML** structure:
   ```
@@ -360,7 +360,7 @@ To get started with Google maps API implementation follow these instructions sho
   ```
 
   * Select the Auto-Reply option and place the following:
-    **SUBJECT:** On behalf of all of us from newIrishLife, welcome onboard!
+    **SUBJECT:** On behalf of all of us from New Irish Life, welcome onboard!
 
   **CONTENT:**
   ```
@@ -522,7 +522,7 @@ To get started with Google maps API implementation follow these instructions sho
 
 # TESTING
 
-Major testing web browsers included in project testing - **Goggle Chrome** - **Mozilla Firefox**  - **Microsoft Edge**
+Major testing web browsers included in project testing - **Google Chrome** - **Mozilla Firefox**  - **Microsoft Edge**
 When the website is successfully uploaded to **GitHub** and the website URL is generated, the testing process can start:
 
 * STEP 1.	  Copy website URL to -  **W3C Mark-up Validation Service**
@@ -640,7 +640,7 @@ Error:  jQuery .show() and .hide() - not applicable on DOM elements
 SOLUTION: Implement jQuery Core 3.5.1 - uncompressed version - [jQuery](https://code.jquery.com/)
 
 **ISSUE #3**
-Error: Uncaught TypeError: Cannot read property 'querySelector' of null - selector does not return any elements at the stage when script is executed
+Error: Uncaught TypeError: Cannot read property 'querySelector' of null - selector does not return any elements at the stage when the script is executed
 
 SOLUTION: Confirm that all DOM has a unique ID selector - if element in header section has same ID like element in footer section `document.getElementById("footer-element-id")` will have value of null
 
