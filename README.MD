@@ -140,6 +140,7 @@ Expansion plan:
 
 # TECHNOLOGIES USED
 ### **HTML**
+
 Semantic elements - nav, section, footer
 
 ### **CSS3**
@@ -159,14 +160,7 @@ _**COMPILER IMPLEMENTATION:**_
 * Enter commands in the following order:
   * `npm init --yes` - **PRESS ENTER**
   * `npm i -g node-sass` - **PRESS ENTER**
-  * In `{} package.json` file under the `"scripts"` type the following:
-
-    ```
-     "scripts": {
-        "watch" : "node-sass -o assets/css assets/scss/index.scss -w"
-      },
-    ```
-
+  * In `{} package.json` file under the `"scripts"` type the [following:](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/API_Secure.png)
 * To start **SASS Compiler** enter following command: `npm run watch` - **PRESS ENTER**
 * If no errors the compile will start with following console log message:
 
