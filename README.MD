@@ -179,9 +179,9 @@ _**SASS IMPLEMENTATION**_
   * **SASS RESPONSIVE Mixins** function [EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/sass_03.png)
 * All files in the above folders **MUST** be named with the following naming conventions: `_filename.scss`
 
-### **JavaScript**
+### **JAVASCRIPT**
 
-### **jQuery**
+### **JQUERY**
 **APPLIED jQuery DOM EVENTS** for highlighting _"Quick Links"_ cards elements
 
 **Trip.html**, **Work.html** and **Life.html** are containing Quick Links user card elements. Every card element contains a _**MAIN LINK**_ source to external services provider and a **"Quick Links..."** button element for loading detailed links when the user chose the services provider destination. [EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
@@ -275,47 +275,11 @@ If user click anywhere on the screen "loaded" elements will "hide" and that is a
 
 **FROM VALIDATION DEVELOPMENT**
 
-* Create [EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)  method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target, in this case `newsletter()` function:
-
-  ```
-  var newsletter = function(){
-    document.getElementById("newsSent").addEventListener("click", send);
-  };
-  ```
+* Create [EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)  method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target, in this case `newsletter()` function - [CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js) from lines **1 - 3** 
 *  Create 2 validation function for UX purposes, `validateName()` and `validateEmail()` function.
-* `validateName()` function is _**returning**_ Boolean value `true` or `false` that is stored in empty variable `var valid;` depending of a user input string value:
-
-  ```
-  var validateName = function(e) {
-      var valid;
-      var name = document.getElementById("newsName");
-      var nameValue = name.value.trim();
-
-      if(nameValue === ""){
-          pushErrorFor(name, "Enter Your name!");
-          valid = false;
-      } else if (nameValue.length < 2){
-          pushErrorFor(name, "Enter Your full name!");
-          valid = false;
-      } else {
-          pushSuccessFor(name);
-          valid = true;
-      }
-
-      return valid;
-  };
-  ```
-
+* `validateName()` function is _**returning**_ Boolean value `true` or `false` that is stored in empty variable `var valid;` depending of a user input string value - [CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js) from lines **5 - 22**
 * Implement call-back functions regarding what kind of input value was submitted by a user.
-* `pushSuccessFor()` function is adding a `.success` class to the input element when user input is valid:
-
-  ```
-    function pushSuccessFor(input) {
-      var formControl = input.parentElement;
-      formControl.className = "form-group success";
-    }
-  ```
-
+* `pushSuccessFor()` function is adding a `.success` class to the input element when user input is valid - [CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js) from lines **55 - 58**
 * User email validation is stored in the `validateEmail()` function with a call-back function that is checking user email - [SOURCE](https://www.w3resource.com/javascript/form/email-validation.php)
 * To get a valid email id we use a regular expression
 * Regular Expression Pattern : `/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/`
@@ -327,27 +291,8 @@ If user click anywhere on the screen "loaded" elements will "hide" and that is a
     };
   ```
 
-* To submit user data to the server we are declaring `send()` function in variable `var send = function(){...};` and calling that function when submit `<button>` is triggered:
+* To submit user data to the server we are declaring `send()` function in variable `var send = function(){...};` and calling that function when submit `<button>` is triggered - [CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js) from lines **60 - 76**
 
-  ```
-    var send = function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-
-        var checkName = validateName();
-        var checkEmail = validateEmail();
-
-        if(checkName === true && checkEmail === true) {
-            sendEmail();
-            reset();
-            TnxForSupport("WOOHOO! Thank you for your support! You will receive a confirmation email soon. ");
-
-        } else {
-            validateName();
-            validateEmail();
-        }
-    };
-  ```
 * **CASE 1** - A user click _SUBMIT_ button with empty inputs elements: [VALIDATION CASE 1](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/case_1.png)
 * **CASE 2** - A user enters in _Name_ input tag less than 2 characters: [VALIDATION CASE 2](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/case_2.png)
 * **CASE 3** - A user enters full _Name_ and click's _SUBMIT_ button: [VALIDATION CASE 3](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/case_3.png)
