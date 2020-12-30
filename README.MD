@@ -19,13 +19,13 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 
 **As a new Irish resident, I want all NECESSARY AND IMPORTANT information for my New Irish Life in one place and available from any device connected to the internet, so I can organize my life in a fun and simple way.**
 
-**When preparing for a trip to Ireland I want to have quick access to the most popular online travel brands and quick links pointing me to _"FLIGHTS""_, _"HOTELS"_, _" _"CAR HIRE"_ and brands _"REVIEWS"_.**
+**When preparing for a trip to Ireland I want to have quick access to the most popular online travel brands and quick links pointing me to _"FLIGHTS"_, _"HOTELS"_, _" _"CAR HIRE"_ ,and brands _"REVIEWS"_.**
 
 **When preparing for a trip to Ireland I want to have quick access to the most popular recruitment websites and quick links pointing me to _"JOB SEARCH"_, _"EXPECTED SALARIES"_,  _"COMPANIES"_ and agency _"REVIEWS"_.**
 
-**Straight after arrival at Dublin Airport if I click on a _[Trip](https://tsokac2.github.io/newIrishLife.2.0/trip.html)_ section I want to see Google Maps with some option for bus, train, or tram stations with visible markers in different colours for fastest navigation.**
+**Straight after arrival at Dublin Airport if I click on a _[Trip](https://tsokac2.github.io/newIrishLife.2.0/trip.html)_ section I want to see Google Maps with some option for bus, train, or tram stations with visible markers in different colors for fastest navigation.**
 
-**I want to stay up-to-date with all fresh information regarding work and lifestyle by subscribing with my email for newsletter services.**
+**I want to stay up-to-date with all fresh information regarding work and lifestyle by subscribing to my email for newsletter services.**
 
 **I want to know if my email is valid when I'm submitting my request for newsletter services.**
 
@@ -46,7 +46,7 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
   * User can choose the most popular online travel brands to organize in cards elements
   * Each card element contains the main link, the brand website screenshot, "Quick links..." option, and a brand description
   * User can have access to the best Irish public transportation services
-  * Users can navigate through embedded Google Map with colourful markers representing the most important bus stations, train stations, and tram stations in  Dublin, Ireland
+  * Users can navigate through embedded Google Map with colorful markers representing the most important bus stations, train stations, and tram stations in  Dublin, Ireland
 
 * Definition by **WORK** section - As a First Time Visitor, I want to easily understand how to start a job search process with the best possible preparation for the Irish work market
   * Users can quickly understand where to start the job search process
@@ -61,7 +61,7 @@ On the web, there was a lot of info about life in Ireland, but not essentials in
 ### Design process
 * #1 Draft all main sections of the web-page - HOME, TRIP, WORK, LIFE.
 * #2 Brief list all pop-ups/pages - SING IN and LOG IN sub-elements.
-* #3 List all colours pallets - usage - background colour, font colour, border.
+* #3 List all color pallets - usage - background color, font color, border.
 * #4 List all font styles for best UX.
 * #5 Draft web-page layout using Adobe Photoshop and Balsamiq for the main layout and Adobe Illustrator for layout components such as Logo, borders, navigation elements.
 * #6 List possible Fowtawesome Icon for best UX in picture experiences.
@@ -103,7 +103,7 @@ Formatted in two main sub-sections:
 * **_CHOOSE WISELY_** Flights booking web services.
 * **_HOP ON_** Ireland public transportation's most popular options and guidelines.
 * **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks.png)
-* **Google Maps** with a tracker for public transportation _"hot"_ spots in Dublin, Ireland with 3 markers in different colours for **Dublin Bus**, **Dart Train**, and **Luas** services - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/googlemap.png)
+* **Google Maps** with a tracker for public transportation _"hot"_ spots in Dublin, Ireland with 3 markers in different colors for **Dublin Bus**, **Dart Train**, and **Luas** services - [View Screenshot](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/googlemap.png)
 
 ## WORK
 Introduction and quick links of the most popular Irish online recruitment sites with an additional section for online education possibilities
@@ -161,8 +161,8 @@ _**COMPILER IMPLEMENTATION:**_
   * `npm init --yes` - **PRESS ENTER**
   * `npm i -g node-sass` - **PRESS ENTER**
   * In `{} package.json` file under the `"scripts"` type the [FOLLOWING](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/sass_01.png)
-* To start **SASS Compiler** enter following command: `npm run watch` - **PRESS ENTER**
-* If no errors the compile will start with following console log message:
+* To start **SASS Compiler** enter the following command: `npm run watch` - **PRESS ENTER**
+* If no errors the compilation process will start with the following console log message:
 
     ```
     > new@1.0.0 watch C:\Users\Tomislav\Desktop\new
@@ -184,7 +184,7 @@ _**SASS IMPLEMENTATION**_
 ### **JQUERY**
 **APPLIED jQuery DOM EVENTS** for highlighting _"Quick Links"_ cards elements
 
-**Trip.html**, **Work.html** and **Life.html** are containing Quick Links user card elements. Every card element contains a _**MAIN LINK**_ source to external services provider and a **"Quick Links..."** button element for loading detailed links when the user chose the services provider destination. [EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
+**Trip.html**, **Work.html** ,and **Life.html** are containing Quick Links user card elements. Every card element contains the _**MAIN LINK**_ source to external services provider and a **"Quick Links..."** button element for loading detailed links when the user chose the services provider destination. [EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
 Card element **HTML** structure from [trip.html](https://github.com/tsokac2/newIrishLife.2.0/blob/main/trip.html) from lines 260 - 279 
 
@@ -241,10 +241,10 @@ If user click anywhere on the screen "loaded" elements will "hide" and that is a
   * Marker Cluster CDN - [SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)
   * Creating call-back function in `<script src="assets/js/maps.js"></script>` -  [CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/maps.js) from lines **1 - 36** 
 
-* `function initMap() {..}` maps location on major scale in this case Dublin, Ireland
+* `function initMap() {..}` maps location on a major scale in this case Dublin, Ireland
 * `google.maps.event.addDomListener(window, "resize", function() {...}` adding Google Maps DOM listener
 * `let busMarkerIcon = {...}` creating custom map marker with `scaledSize` property
-* `const Bus747Stop = new google.maps.Marker({...});` pointg to Bus Stop for 747 Dublin Bus line for Dublin Airport
+* `const Bus747Stop = new google.maps.Marker({...});` pointing to Bus Stop for 747 Dublin Bus line for Dublin Airport
 
 **FULL SOURCE CODE:** GOOGLE MAPS API [maps.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/maps.js)
 
@@ -254,7 +254,7 @@ If user click anywhere on the screen "loaded" elements will "hide" and that is a
 * Add New Service - **Gmail**
 * Email Templates - **Create New Template**
 * Use following syntax for form attributes, syntax `{{form_name}}`
-* **SENT** [Email](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email_01.png) content from user
+* **SENT** [Email](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email_01.png) content from a user
 * Select the Auto-Reply option and place the following: _**SUBJECT:** On behalf of all of us from New Irish Life, welcome onboard!_
 * **WELCOMING** [Email](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email_02.png) content sent to the user after successful submission
 
@@ -343,7 +343,7 @@ When the website is successfully uploaded to **GitHub** and the website URL is g
 * STEP 6.	  Check website breaking points for smartphones, tablets, and desktop devices
 * STEP 7.   Check paragraph margins, padding, and font sizing on small and larger devices
 * STEP 8.	  Make sure all external links are opening in a separate browser tab and leading the user to the correct website destination
-* STEP 9.	  Check Colour contras for foreground and background colours by using **Contrast Checker** - https://contrastchecker.com/
+* STEP 9.	  Check colors contras for foreground and background colours by using **Contrast Checker** - https://contrastchecker.com/
 * STEP 10.  Check code organization for future updates
 
 ## TESTING WITH JASMINE [VIEW](https://github.com/tsokac2/newIrishLife.2.0/blob/main/JASMINETESTING.MD)
@@ -377,7 +377,7 @@ In Visual Studio Code IDE add jshint extension with the following steps:
 
 	* File - Preferences - Extensions
 	* In Search field enter - jshint - click on green "Install" button
-  * To install **jshint** with Node.js **npm** package read documentation at https://jshint.com/install/
+  * To install **jshint** with Node.js **npm** package read the documentation at https://jshint.com/install/
 
 **CONTRAST CHECKER** - https://contrastchecker.com/
 
@@ -479,8 +479,8 @@ _**STEPS:**_
 * Install and Git CMD app on your local devices
 * Navigate to the root folder of the project
 * Initialize project root folder with the following command: `git init`
-* Log in to GitHub repository with the following command: `git config --global user. name "username"`
-* Initiate git add for all or a single file in the root folder: `git add .` //all or `git add "filename"`
+* Log in to the GitHub repository with the following command: `git config --global user. name "username"`
+* Initiate _git add_ command for all or a single file in the root folder: `git add .` //all or `git add "filename"`
 * Commit the last incremental change: `git commit -m "Commit comment"`
 * Push/upload all commits to master branch: `git push -u git push -u origin main`
 * On GitHub select project repository, under "Settings" navigate to "GitHub Pages" and activate the "live" version of the project
