@@ -222,8 +222,6 @@ If user click anywhere on the screen "loaded" elements will "hide" and that is a
 * Google API [Google Maps API](https://developers.google.com/maps/gmp-get-started#quickstart)
 
 **IMPLEMENTATION STEPS:**
-To get started with Google maps API implementation follow these instructions short instructions:
-
   * Pick Google Maps product [More info](https://developers.google.com/maps/gmp-get-started#quickstart)
   * Create a project.
   * Set up a billing account.
@@ -232,7 +230,7 @@ To get started with Google maps API implementation follow these instructions sho
   * API keys for frontend-only applications cannot be hidden like is stated on the following link [Hide API Keys](https://gist.github.com/derzorngottes/3b57edc1f996dddcab25), developers [Comment](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/API_Secure.png)
 
 * **SCRIPTS INTEGRATION:**
-  * In **trip.html** place `<scripts>` in following order:
+  * In `<head>` element place `<scripts>` in following order:
 
     ```
     <script src="assets/js/markerclusterer_compiled.js"></script>
@@ -241,36 +239,8 @@ To get started with Google maps API implementation follow these instructions sho
     ```
   * Create `<div>` element with ID `<div id="map">` render map place
   * Marker Cluster CDN - [SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)
-  * Creating call-back function in `<script src="assets/js/maps.js"></script>`:
-    ```
-        function initMap() {
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom : 11,
-                center: {
-                    lat: 53.350140,
-                    lng: -6.266155
-                }
-            });
+  * Creating call-back function in `<script src="assets/js/maps.js"></script>` -  [CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/maps.js) from lines **1 - 36** 
 
-          google.maps.event.addDomListener(window, "resize", function() {
-            var center = map.getCenter();
-            google.maps.event.trigger(map, "resize");
-            map.setCenter(center);
-          });
-
-            let busMarkerIcon = {
-                url:"assets/img/bus_marker.png",
-                scaledSize: new google.maps.Size(50, 50)
-            }
-
-      const Bus747Stop = new google.maps.Marker({
-          position: {lat: 53.42810, lng: -6.24407},
-          map: map,
-          title: "BUS 747 Stop",
-            icon: busMarkerIcon
-        });
-      }
-    ```
 * `function initMap() {..}` maps location on major scale in this case Dublin, Ireland
 * `google.maps.event.addDomListener(window, "resize", function() {...}` adding Google Maps DOM listener
 * `let busMarkerIcon = {...}` creating custom map marker with `scaledSize` property
@@ -284,39 +254,9 @@ To get started with Google maps API implementation follow these instructions sho
 * Add New Service - **Gmail**
 * Email Templates - **Create New Template**
 * Use following syntax for form attributes, syntax `{{form_name}}`
-
-  **CONTENT:**
-  ```
-    Email content from sent from user:
-
-    Hello Team,
-
-    My name is {{from_name}}!
-
-    I want to subscribe to your newsletter email services.
-
-    Best
-
-    {{from_name}}
-  ```
-
-  * Select the Auto-Reply option and place the following:
-    **SUBJECT:** On behalf of all of us from New Irish Life, welcome onboard!
-
-  **CONTENT:**
-  ```
-      Hello `{{from_name}},`
-
-      We are delighted to have you among us.
-
-      On behalf of all the members and the management, we would like to extend our warmest welcome and good wishes!
-
-      Stay tuned for **FRESH NEWS** about our services...
-
-      Best,
-
-      Info NewIrishLife
-  ```
+* [Email](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email_01.png) content **SENT** from user
+* Select the Auto-Reply option and place the following: _**SUBJECT:** On behalf of all of us from New Irish Life, welcome onboard!_
+* [Email](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email_02.png) **WELCOMING** content sent to the user after successful submission
 
 **SCRIPTS INTEGRATION:**
   * Before closing **`<head>`** element place following **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
