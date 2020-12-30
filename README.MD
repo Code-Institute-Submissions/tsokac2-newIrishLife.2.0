@@ -180,37 +180,14 @@ _**SASS IMPLEMENTATION**_
 * All files in the above folders **MUST** be named with the following naming conventions: `_filename.scss`
 
 ### **JavaScript**
-Programming language
 
 ### **jQuery**
-**APPLIED jQuery DOM EVENTS IN PROJECT**
+**APPLIED jQuery DOM EVENTS** for highlighting _"Quick Links"_ cards elements
 
-**Trip.html**, **Work.html** and **Life.html** are containing Quick Links user card elements. Every card element contains a _**MAIN LINK**_ source to external services provider and a **"Quick Links..."** button element for loading detailed links when the user chose the services provider destination. [Example](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
+**Trip.html**, **Work.html** and **Life.html** are containing Quick Links user card elements. Every card element contains a _**MAIN LINK**_ source to external services provider and a **"Quick Links..."** button element for loading detailed links when the user chose the services provider destination. [EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/quicklinks_life.png)
 
-Card element **HTML** structure:
-  ```
-  <div id="Card10" class="wrap">
-       <a class="card-link-fav udemy_fav" href="https://www.udemy.com" target="_blank"><strong>Udemy.com</strong></a>
-       <div class="card-img">
-           <img src="assets/images/udemy.png" class="img-fluid" alt="Udemy">
-       </div>
-       <button id="showLinks10" class="load-links-btn">Quick Links...<i class="fas fa-sort-down"></i></button>
-       <p class="card-text">
-           The leading global marketplace for learning and instruction.
-           By connecting students all over the world to the best instructors,
-           Udemy is helping individuals reach their goals and pursue their dreams.
-       </p>
-       <div class="showLinks10-grid hideLinks10-grid text-center">
-           <div class="q-links-wrap">
-               <a href="https://www.udemy.com/" class="q-links a" target="_blank">CATEGORIES</a>
-               <a href="https://about.udemy.com/careers/" class="q-links a" target="_blank">CAREERS</a>
-               <a href="https://about.udemy.com/blog/" class="q-links"  target="_blank">BLOG</a>
-               <a href="https://about.udemy.com/company/" class="q-links" target="_blank">COMPANY</a>
-           </div>
-           <button id="hideLinks10" class="hideLinks-btn"><i class="far fa-times-circle"></i></button>
-       </div>
-   </div>
-  ```
+Card element **HTML** structure from [trip.html](https://github.com/tsokac2/newIrishLife.2.0/blob/main/trip.html) from lines 260 - 279 
+
 Trip.html, Work.html and Life.html contains `<div class="blur"> just after opening `<body> tag for the background "fade-out" effect
 
 **jQuery DOM Events** used for above-mentioned cards element functionality:
@@ -222,36 +199,21 @@ Trip.html, Work.html and Life.html contains `<div class="blur"> just after openi
 * `$(thisCardLinkShow).addClass("rel-card");` adding class `.addClass("rel-card")` to element that is referring to `this` element
 * `$("#Card1").addClass("wrap-rel");`  adding class `.addClass("rel-card")` to element with id **Card1**
 
-The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");`
-  ```
-  $("#hideLinks1").click(function (){
-        var thisCardLinkShow = "." + this.id + "-grid";
-        $(thisCardLinkShow).hide(400);
-        $(".blur").fadeOut(300);
-        $("#Card1").removeClass("wrap-rel");
-  });
-  ```
+The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");` [SOURCE CODE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js) from lines 9 - 14 
 
-  If user click anywhere on the screen "loaded" elements will "hide" and that is archived with following `.click()` DOM effect on `<div class="blur>`.
-  `.blur` element contains absolute position properties with a z-index of 1000.
 
-  ```
-  $(".blur").click(function () {
-         $(".blur").fadeOut(300);
-         $("#Card1").removeClass("wrap-rel");
-         $(".hideLinks1-grid").hide(400);
-  });
-  ```
+If user click anywhere on the screen "loaded" elements will "hide" and that is archived with following `.click()` DOM effect on `<div class="blur>`.
+`.blur` element contains absolute position properties with a z-index of 1000 [SOURCE CODE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js) from lines 34 - 38 
+
 **FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js)
 
 **FULL LIBRARY SOURCE:** - https://code.jquery.com/
 
 ### BOOTSTRAP 4.5.3**
+* Bootstrap was used to assist with the responsiveness and styling of the website
 * Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, etc...
-
 * Library provider: https://getbootstrap.com
-
-* Library URL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
+* Library URL: [Bootstrap DOC 4.5.3](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ### GOOGLE CDN's and GOOGLE API
 
