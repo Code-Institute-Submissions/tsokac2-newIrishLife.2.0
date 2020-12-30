@@ -160,7 +160,7 @@ _**COMPILER IMPLEMENTATION:**_
 * Enter commands in the following order:
   * `npm init --yes` - **PRESS ENTER**
   * `npm i -g node-sass` - **PRESS ENTER**
-  * In `{} package.json` file under the `"scripts"` type the [following:](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/API_Secure.png)
+  * In `{} package.json` file under the `"scripts"` type the [FOLLOWING](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/sass_01.png)
 * To start **SASS Compiler** enter following command: `npm run watch` - **PRESS ENTER**
 * If no errors the compile will start with following console log message:
 
@@ -175,24 +175,8 @@ _**SASS IMPLEMENTATION**_
   * assets/scss/base - global styles for html, body and special helper classes
   * assets/scss/components - carousel image slideshow, small screen navigation menu
   * assets/scss/layout - styling for home.html, trip.html, work.html and life.html
-  * assets/scss/_index.scss - referencing all `*.scss` files in folder structure, example:
-
-  ```
-  @import "abstracts/variables";
-  @import "abstracts/mixins";
-  @import "base/base";
-  ```
-  * **SASS RESPONSIVE Mixins** function example:
-  ```
-  @mixin response($breakpoint) {
-    @if($breakpoint == md) {
-        @media(min-width: 768px) {
-            @content;
-        }
-    }
-  }
-  ```
-
+  * assets/scss/_index.scss - referencing all `*.scss` files in folder structure, [EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/sass_02.png)
+  * **SASS RESPONSIVE Mixins** function [EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/sass_03.png)
 * All files in the above folders **MUST** be named with the following naming conventions: `_filename.scss`
 
 ### **JavaScript**
