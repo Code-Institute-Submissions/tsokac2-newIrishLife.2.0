@@ -555,7 +555,7 @@ Development and testing overview in order as follow:
 
 **MICROSOFT EDGE**      -   https://www.microsoft.com/en-us/edge
 
-**GITCMD**              -   https://git-scm.com/
+**GIT CMD**              -   https://git-scm.com/
 
 **HTML VALIDATION PLATFORM** - W3C Mark-up Validation Service - https://validator.w3.org/
 
