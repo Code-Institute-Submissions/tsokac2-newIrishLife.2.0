@@ -199,11 +199,11 @@ Trip.html, Work.html and Life.html contains `<div class="blur"> just after openi
 * `$(thisCardLinkShow).addClass("rel-card");` adding class `.addClass("rel-card")` to element that is referring to `this` element
 * `$("#Card1").addClass("wrap-rel");`  adding class `.addClass("rel-card")` to element with id **Card1**
 
-The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");` [SOURCE CODE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js) from lines 9 - 14 
+The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");` - [SOURCE CODE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js) from lines **9 - 14** 
 
 
 If user click anywhere on the screen "loaded" elements will "hide" and that is archived with following `.click()` DOM effect on `<div class="blur>`.
-`.blur` element contains absolute position properties with a z-index of 1000 [SOURCE CODE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js) from lines 34 - 38 
+`.blur` element contains absolute position properties with a z-index of 1000: [SOURCE CODE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js) from lines **34 - 38** 
 
 **FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/cards.js)
 
@@ -217,9 +217,9 @@ If user click anywhere on the screen "loaded" elements will "hide" and that is a
 
 ### GOOGLE CDN's and GOOGLE API
 
-* Google Fonts - Merienda `<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">`
-* Google Fonts - Lato `<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@400;700&display=swap" rel="stylesheet">`
-* Google API Google Maps API - `<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDadfKOCQK6Iu6tBeOXDAvZp5071lP8Us0&callback=initMap"></script>`
+* Google Fonts - [Merienda](https://fonts.google.com/specimen/Merienda?preview.text=&preview.text_type=custom&query=mer)
+* Google Fonts - [Lato](https://fonts.google.com/?preview.text=&preview.text_type=custom&query=LATO)
+* Google API [Google Maps API](https://developers.google.com/maps/gmp-get-started#quickstart)
 
 **IMPLEMENTATION STEPS:**
 To get started with Google maps API implementation follow these instructions short instructions:
