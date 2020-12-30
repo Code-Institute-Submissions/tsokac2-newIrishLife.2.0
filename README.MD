@@ -289,6 +289,7 @@ To get started with Google maps API implementation follow these instructions sho
   * Set up a billing account.
   * Enable APIs associated with the products you picked.
   * Create an API key-  documentation source - [API Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+  * API keys for frontend-only applications cannot be hidden like is stated on the following link [Hide API Keys](https://gist.github.com/derzorngottes/3b57edc1f996dddcab25), developers [Comment](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/API_Secure.png)
 
 * **SCRIPTS INTEGRATION:**
   * In **trip.html** place `<scripts>` in following order:
