@@ -254,12 +254,13 @@ If user click anywhere on the screen "loaded" elements will "hide" and that is a
 * Add New Service - **Gmail**
 * Email Templates - **Create New Template**
 * Use following syntax for form attributes, syntax `{{form_name}}`
-* [Email](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email_01.png) content **SENT** from user
+* **SENT** [Email](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email_01.png) content from user
 * Select the Auto-Reply option and place the following: _**SUBJECT:** On behalf of all of us from New Irish Life, welcome onboard!_
-* [Email](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email_02.png) **WELCOMING** content sent to the user after successful submission
+* **WELCOMING** [Email](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/email_02.png) content sent to the user after successful submission
 
 **SCRIPTS INTEGRATION:**
-  * Before closing **`<head>`** element place following **CDN** script tag - `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
+  * Before closing **`<head>`** element place following **CDN** script tag:
+    * `<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
   * Place following call-back function after **CDN** link
 
   ```
@@ -270,25 +271,8 @@ If user click anywhere on the screen "loaded" elements will "hide" and that is a
   </script>
   ```
   * Check `User ID` under "Integration" option on EmailJs dashboard
-  * Create `submitEmail` function in `<script src="assets/js/emailnews.js">`
+  * Create `sendEmail` function [CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.2.0/blob/main/assets/js/emailnews.js) from lines **88 - 103** 
 
-  ```
-  function sendEmail(inputs) {
-      var tempInputs = {
-          "from_name": document.getElementById("newsName").value,
-          "from_email": document.getElementById("newsEmail").value
-      };
-
-      emailjs.send("service_yf3pn0p", "newIrishLife", tempInputs)
-          .then(function (response) {
-                  console.log("SUCCESS", response);
-              },
-              function (error) {
-                  console.log("FAILED", error);
-              });
-              return false;
-     }
-  ```
 **FROM VALIDATION DEVELOPMENT**
 
 * Create [EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)  method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target, in this case `newsletter()` function:
