@@ -1,6 +1,6 @@
 ## JASMINE - https://jasmine.github.io/
 
-Jasmine is a behaviour-driven development framework for testing JavaScript code
+Jasmine is a behavior-driven development framework for testing JavaScript code
 
 ## Testing DOM Events Using jQuery and Jasmine 2.0
 
